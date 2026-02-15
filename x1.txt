@@ -1,0 +1,475 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0  23824 14420 ?        Ss   09:19   0:03 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    09:19   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    09:19   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-kvfree_rcu_reclaim]
+root           7  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-slub_flushwq]
+root           8  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-netns]
+root          10  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/0:0H-events_highpri]
+root          13  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-mm_percpu_wq]
+root          14  0.0  0.0      0     0 ?        I    09:19   0:00 [rcu_tasks_kthread]
+root          15  0.0  0.0      0     0 ?        I    09:19   0:00 [rcu_tasks_rude_kthread]
+root          16  0.0  0.0      0     0 ?        I    09:19   0:00 [rcu_tasks_trace_kthread]
+root          17  0.0  0.0      0     0 ?        S    09:19   0:01 [ksoftirqd/0]
+root          18  0.1  0.0      0     0 ?        I    09:19   1:06 [rcu_preempt]
+root          19  0.0  0.0      0     0 ?        S    09:19   0:00 [rcu_exp_par_gp_kthread_worker/1]
+root          20  0.0  0.0      0     0 ?        S    09:19   0:00 [rcu_exp_gp_kthread_worker]
+root          21  0.0  0.0      0     0 ?        S    09:19   0:10 [migration/0]
+root          22  0.0  0.0      0     0 ?        S    09:19   0:00 [idle_inject/0]
+root          23  0.0  0.0      0     0 ?        S    09:19   0:00 [cpuhp/0]
+root          24  0.0  0.0      0     0 ?        S    09:19   0:00 [cpuhp/1]
+root          25  0.0  0.0      0     0 ?        S    09:19   0:00 [idle_inject/1]
+root          26  0.0  0.0      0     0 ?        S    09:19   0:06 [migration/1]
+root          27  0.0  0.0      0     0 ?        S    09:19   0:00 [ksoftirqd/1]
+root          29  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/1:0H-events_highpri]
+root          30  0.0  0.0      0     0 ?        S    09:19   0:00 [cpuhp/3]
+root          31  0.0  0.0      0     0 ?        S    09:19   0:00 [idle_inject/3]
+root          32  0.0  0.0      0     0 ?        S    09:19   0:05 [migration/3]
+root          33  0.0  0.0      0     0 ?        S    09:19   0:00 [ksoftirqd/3]
+root          35  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/3:0H-events_highpri]
+root          36  0.0  0.0      0     0 ?        S    09:19   0:00 [cpuhp/6]
+root          37  0.0  0.0      0     0 ?        S    09:19   0:00 [idle_inject/6]
+root          38  0.0  0.0      0     0 ?        S    09:19   0:04 [migration/6]
+root          39  0.0  0.0      0     0 ?        S    09:19   0:00 [ksoftirqd/6]
+root          41  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/6:0H-events_highpri]
+root          42  0.0  0.0      0     0 ?        S    09:19   0:00 [cpuhp/8]
+root          43  0.0  0.0      0     0 ?        S    09:19   0:00 [idle_inject/8]
+root          44  0.0  0.0      0     0 ?        S    09:19   0:16 [migration/8]
+root          45  0.0  0.0      0     0 ?        S    09:19   0:00 [ksoftirqd/8]
+root          47  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/8:0H-events_highpri]
+root          48  0.0  0.0      0     0 ?        S    09:19   0:00 [cpuhp/9]
+root          49  0.0  0.0      0     0 ?        S    09:19   0:00 [idle_inject/9]
+root          50  0.0  0.0      0     0 ?        S    09:19   0:10 [migration/9]
+root          51  0.0  0.0      0     0 ?        S    09:19   0:00 [ksoftirqd/9]
+root          53  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/9:0H-events_highpri]
+root          54  0.0  0.0      0     0 ?        S    09:19   0:00 [rcu_exp_par_gp_kthread_worker/2]
+root          55  0.0  0.0      0     0 ?        S    09:19   0:00 [cpuhp/10]
+root          56  0.0  0.0      0     0 ?        S    09:19   0:00 [idle_inject/10]
+root          57  0.0  0.0      0     0 ?        S    09:19   0:06 [migration/10]
+root          58  0.0  0.0      0     0 ?        S    09:19   0:00 [ksoftirqd/10]
+root          60  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/10:0H-events_highpri]
+root          61  0.0  0.0      0     0 ?        S    09:19   0:00 [cpuhp/11]
+root          62  0.0  0.0      0     0 ?        S    09:19   0:00 [idle_inject/11]
+root          63  0.0  0.0      0     0 ?        S    09:19   0:04 [migration/11]
+root          64  0.0  0.0      0     0 ?        S    09:19   0:00 [ksoftirqd/11]
+root          66  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/11:0H-events_highpri]
+root          67  0.0  0.0      0     0 ?        S    09:19   0:00 [cpuhp/12]
+root          68  0.0  0.0      0     0 ?        S    09:19   0:00 [idle_inject/12]
+root          69  0.0  0.0      0     0 ?        S    09:19   0:04 [migration/12]
+root          70  0.0  0.0      0     0 ?        S    09:19   0:00 [ksoftirqd/12]
+root          72  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/12:0H-events_highpri]
+root          73  0.0  0.0      0     0 ?        S    09:19   0:00 [cpuhp/13]
+root          74  0.0  0.0      0     0 ?        S    09:19   0:00 [idle_inject/13]
+root          75  0.0  0.0      0     0 ?        S    09:19   0:03 [migration/13]
+root          76  0.0  0.0      0     0 ?        S    09:19   0:00 [ksoftirqd/13]
+root          78  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/13:0H-events_highpri]
+root          79  0.0  0.0      0     0 ?        S    09:19   0:00 [cpuhp/14]
+root          80  0.0  0.0      0     0 ?        S    09:19   0:00 [idle_inject/14]
+root          81  0.0  0.0      0     0 ?        S    09:19   0:03 [migration/14]
+root          82  0.0  0.0      0     0 ?        S    09:19   0:00 [ksoftirqd/14]
+root          84  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/14:0H-events_highpri]
+root          85  0.0  0.0      0     0 ?        S    09:19   0:00 [cpuhp/15]
+root          86  0.0  0.0      0     0 ?        S    09:19   0:00 [idle_inject/15]
+root          87  0.0  0.0      0     0 ?        S    09:19   0:02 [migration/15]
+root          88  0.0  0.0      0     0 ?        S    09:19   0:00 [ksoftirqd/15]
+root          90  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/15:0H-events_highpri]
+root          91  0.0  0.0      0     0 ?        S    09:19   0:00 [cpuhp/16]
+root          92  0.0  0.0      0     0 ?        S    09:19   0:00 [idle_inject/16]
+root          93  0.0  0.0      0     0 ?        S    09:19   0:02 [migration/16]
+root          94  0.0  0.0      0     0 ?        S    09:19   0:00 [ksoftirqd/16]
+root          96  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/16:0H-events_highpri]
+root          97  0.0  0.0      0     0 ?        S    09:19   0:00 [cpuhp/17]
+root          98  0.0  0.0      0     0 ?        S    09:19   0:00 [idle_inject/17]
+root          99  0.0  0.0      0     0 ?        S    09:19   0:01 [migration/17]
+root         100  0.0  0.0      0     0 ?        S    09:19   0:00 [ksoftirqd/17]
+root         102  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/17:0H-events_highpri]
+root         103  0.0  0.0      0     0 ?        S    09:19   0:00 [cpuhp/2]
+root         104  0.0  0.0      0     0 ?        S    09:19   0:00 [idle_inject/2]
+root         105  0.0  0.0      0     0 ?        S    09:19   0:01 [migration/2]
+root         106  0.0  0.0      0     0 ?        S    09:19   0:00 [ksoftirqd/2]
+root         108  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/2:0H-events_highpri]
+root         109  0.0  0.0      0     0 ?        S    09:19   0:00 [cpuhp/4]
+root         110  0.0  0.0      0     0 ?        S    09:19   0:00 [idle_inject/4]
+root         111  0.0  0.0      0     0 ?        S    09:19   0:00 [migration/4]
+root         112  0.0  0.0      0     0 ?        S    09:19   0:00 [ksoftirqd/4]
+root         114  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/4:0H-events_highpri]
+root         115  0.0  0.0      0     0 ?        S    09:19   0:00 [cpuhp/5]
+root         116  0.0  0.0      0     0 ?        S    09:19   0:00 [idle_inject/5]
+root         117  0.0  0.0      0     0 ?        S    09:19   0:01 [migration/5]
+root         118  0.0  0.0      0     0 ?        S    09:19   0:00 [ksoftirqd/5]
+root         120  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/5:0H-events_highpri]
+root         121  0.0  0.0      0     0 ?        S    09:19   0:00 [cpuhp/7]
+root         122  0.0  0.0      0     0 ?        S    09:19   0:00 [idle_inject/7]
+root         123  0.0  0.0      0     0 ?        S    09:19   0:00 [migration/7]
+root         124  0.0  0.0      0     0 ?        S    09:19   0:00 [ksoftirqd/7]
+root         126  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/7:0H-events_highpri]
+root         129  0.0  0.0      0     0 ?        S    09:19   0:00 [kdevtmpfs]
+root         130  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-inet_frag_wq]
+root         131  0.0  0.0      0     0 ?        S    09:19   0:00 [kauditd]
+root         132  0.0  0.0      0     0 ?        S    09:19   0:00 [khungtaskd]
+root         134  0.0  0.0      0     0 ?        S    09:19   0:00 [oom_reaper]
+root         135  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-writeback]
+root         136  0.0  0.0      0     0 ?        S    09:19   0:00 [kcompactd0]
+root         137  0.0  0.0      0     0 ?        SN   09:19   0:00 [ksmd]
+root         138  0.0  0.0      0     0 ?        SN   09:19   0:00 [khugepaged]
+root         139  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-kintegrityd]
+root         140  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-kblockd]
+root         141  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-blkcg_punt_bio]
+root         143  0.0  0.0      0     0 ?        S    09:19   0:00 [irq/9-acpi]
+root         146  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-tpm_dev_wq]
+root         147  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-ata_sff]
+root         148  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-md]
+root         149  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-md_bitmap]
+root         150  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-edac-poller]
+root         152  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-devfreq_wq]
+root         154  0.0  0.0      0     0 ?        S    09:19   0:00 [watchdogd]
+root         156  0.0  0.0      0     0 ?        I<   09:19   0:02 [kworker/9:1H-i915_cleanup]
+root         157  0.0  0.0      0     0 ?        S    09:19   0:02 [kswapd0]
+root         158  0.0  0.0      0     0 ?        S    09:19   0:00 [ecryptfs-kthread]
+root         159  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-kthrotld]
+root         160  0.0  0.0      0     0 ?        S    09:19   0:00 [irq/123-pciehp]
+root         161  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-acpi_thermal_pm]
+root         164  0.0  0.0      0     0 ?        S    09:19   0:00 [hwrng]
+root         165  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-hfi-updates]
+root         167  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-mld]
+root         168  0.0  0.0      0     0 ?        I<   09:19   0:01 [kworker/10:1H-events_highpri]
+root         169  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-ipv6_addrconf]
+root         176  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-kstrp]
+root         178  0.0  0.0      0     0 ?        I    09:19   0:01 [kworker/7:1-cgroup_destroy]
+root         187  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/u77:0]
+root         201  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-charger_manager]
+root         202  0.0  0.0      0     0 ?        I<   09:19   0:02 [kworker/0:1H-i915_cleanup]
+root         227  0.0  0.0      0     0 ?        I<   09:19   0:02 [kworker/1:1H-i915_cleanup]
+root         231  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/15:1H-kblockd]
+root         232  0.0  0.0      0     0 ?        I<   09:19   0:02 [kworker/3:1H-i915_cleanup]
+root         251  0.0  0.0      0     0 ?        I<   09:19   0:02 [kworker/8:1H-kblockd]
+root         252  0.0  0.0      0     0 ?        I<   09:19   0:02 [kworker/5:1H-i915_cleanup]
+root         253  0.0  0.0      0     0 ?        I<   09:19   0:01 [kworker/11:1H-i915_cleanup]
+root         254  0.0  0.0      0     0 ?        I<   09:19   0:01 [kworker/6:1H-i915_cleanup]
+root         255  0.0  0.0      0     0 ?        I<   09:19   0:01 [kworker/12:1H-i915_cleanup]
+root         257  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/2:1H-i915_cleanup]
+root         263  0.0  0.0      0     0 ?        I<   09:19   0:01 [kworker/14:1H-i915_cleanup]
+root         270  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/7:1H-i915_cleanup]
+root         287  0.0  0.0      0     0 ?        I<   09:19   0:01 [kworker/13:1H-i915_cleanup]
+root         295  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/4:1H-i915_cleanup]
+root         314  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-nvme-wq]
+root         315  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-nvme-reset-wq]
+root         316  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-nvme-delete-wq]
+root         317  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-nvme-auth-wq]
+root         321  0.3  0.0      0     0 ?        S    09:19   2:32 [irq/157-SYNA32EB:00]
+root         362  0.0  0.0      0     0 ?        S    09:19   0:04 [jbd2/nvme0n1p4-8]
+root         363  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-ext4-rsv-conversion]
+root         413  0.0  0.2  92572 47472 ?        S<s  09:19   0:07 /usr/lib/systemd/systemd-journald
+root         500  0.0  0.0  30612  8524 ?        Ss   09:19   0:00 /usr/lib/systemd/systemd-udevd
+root         505  0.0  0.0      0     0 ?        I    09:19   0:01 [kworker/17:1-events]
+root         511  0.0  0.0      0     0 ?        S    09:19   0:00 [psimon]
+root         526  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/16:1H-i915_cleanup]
+root         621  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-cfg80211]
+root         663  0.1  0.0      0     0 ?        S    09:19   1:08 [irq/178-iwlwifi:default_queue]
+root         664  0.0  0.0      0     0 ?        S    09:19   0:04 [irq/179-iwlwifi:queue_1]
+root         665  0.0  0.0      0     0 ?        S    09:19   0:04 [irq/180-iwlwifi:queue_2]
+root         666  0.0  0.0      0     0 ?        S    09:19   0:13 [irq/181-iwlwifi:queue_3]
+root         667  0.0  0.0      0     0 ?        S    09:19   0:03 [irq/182-iwlwifi:queue_4]
+root         668  0.0  0.0      0     0 ?        S    09:19   0:13 [irq/183-iwlwifi:queue_5]
+root         669  0.0  0.0      0     0 ?        S    09:19   0:06 [irq/184-iwlwifi:queue_6]
+root         670  0.0  0.0      0     0 ?        S    09:19   0:05 [irq/185-iwlwifi:queue_7]
+root         671  0.0  0.0      0     0 ?        S    09:19   0:04 [irq/186-iwlwifi:queue_8]
+root         672  0.0  0.0      0     0 ?        S    09:19   0:09 [irq/187-iwlwifi:queue_9]
+root         673  0.1  0.0      0     0 ?        S    09:19   0:51 [irq/188-iwlwifi:queue_10]
+root         674  0.0  0.0      0     0 ?        S    09:19   0:12 [irq/189-iwlwifi:queue_11]
+root         675  0.0  0.0      0     0 ?        S    09:19   0:11 [irq/190-iwlwifi:queue_12]
+root         676  0.0  0.0      0     0 ?        S    09:19   0:04 [irq/191-iwlwifi:queue_13]
+root         677  0.0  0.0      0     0 ?        S    09:19   0:03 [irq/192-iwlwifi:queue_14]
+root         678  0.0  0.0      0     0 ?        S    09:19   0:00 [irq/193-iwlwifi:exception]
+root         679  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-cryptd]
+root         694  0.0  0.0      0     0 ?        I<   09:19   0:10 [kworker/u75:1-hci0]
+root         696  0.0  0.0      0     0 ?        S    09:19   0:00 [irq/16-processor_thermal_device_pci]
+root         749  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/R-ttm]
+root         751  0.0  0.0      0     0 ?        S    09:19   0:00 [card1-crtc0]
+root         752  0.0  0.0      0     0 ?        S    09:19   0:00 [card1-crtc1]
+root         753  0.0  0.0      0     0 ?        S    09:19   0:00 [card1-crtc2]
+root         754  0.0  0.0      0     0 ?        S    09:19   0:00 [card1-crtc3]
+root         782  0.0  0.0      0     0 ?        S    09:19   0:00 [irq/199-AudioDSP]
+systemd+     923  0.0  0.0  17564  7444 ?        Ss   09:19   0:12 /usr/lib/systemd/systemd-oomd
+systemd+     924  0.0  0.0  22244 13708 ?        Ss   09:19   0:07 /usr/lib/systemd/systemd-resolved
+systemd+     925  0.0  0.0  91052  7732 ?        Ssl  09:19   0:00 /usr/lib/systemd/systemd-timesyncd
+root        1067  0.0  0.0      0     0 ?        I<   09:19   0:00 [kworker/17:1H-kblockd]
+avahi       1107  0.3  0.0  11568  7592 ?        Rs   09:19   2:33 avahi-daemon: running [blackdronzer.local]
+root        1108  0.0  0.0  13844  7328 ?        Ss   09:19   0:00 /usr/libexec/bluetooth/bluetoothd
+message+    1109  0.0  0.0  12464  7680 ?        Ss   09:19   0:07 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gnome-r+    1112  0.0  0.1 365476 16672 ?        Ssl  09:19   0:00 /usr/libexec/gnome-remote-desktop-daemon --system
+polkitd     1115  0.0  0.0 391148 13040 ?        Ssl  09:19   0:03 /usr/lib/polkit-1/polkitd --no-debug
+root        1117  0.0  0.0 313736  8240 ?        Ssl  09:19   0:00 /usr/libexec/power-profiles-daemon
+root        1124  0.0  0.2 2811376 42876 ?       Ssl  09:19   0:06 /snap/snapd/current/usr/lib/snapd/snapd
+root        1128  0.0  0.0 313384  7960 ?        Ssl  09:19   0:01 /usr/libexec/accounts-daemon
+root        1130  0.0  0.0   9424  2904 ?        Ss   09:19   0:00 /usr/sbin/cron -f -P
+root        1132  0.0  0.0 309720  6856 ?        Ssl  09:19   0:00 /usr/libexec/switcheroo-control
+root        1138  0.0  0.0  18176  9304 ?        Ss   09:19   0:01 /usr/lib/systemd/systemd-logind
+root        1139  0.0  0.0 424904 10892 ?        Ssl  09:19   0:05 /usr/sbin/thermald --systemd --dbus-enable --adaptive
+root        1140  0.0  0.0 470060 14860 ?        Ssl  09:19   0:00 /usr/libexec/udisks2/udisksd
+root        1141  1.2  1.0 4715980 168784 ?      Ssl  09:19   8:50 /bin/warp-svc
+avahi       1147  0.0  0.0   8480  1520 ?        S    09:19   0:00 avahi-daemon: chroot helper
+root        1186  0.0  0.1 627080 24192 ?        Ssl  09:19   0:10 /usr/sbin/NetworkManager --no-daemon
+root        1189  0.0  0.0  18424 12396 ?        Ss   09:19   0:00 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+syslog      1222  0.0  0.0 222564  6628 ?        Ssl  09:19   0:02 /usr/sbin/rsyslogd -n -iNONE
+root        1293  0.0  0.0 392192 12780 ?        Ssl  09:19   0:00 /usr/sbin/ModemManager
+root        1313  0.0  0.0 313512  7952 ?        Ssl  09:19   0:00 /usr/libexec/boltd
+root        1351  0.0  0.0 318016 10900 ?        Ssl  09:19   0:02 /usr/libexec/upowerd
+root        1417  0.0  0.0      0     0 ?        S    09:19   0:00 [psimon]
+root        1426  0.0  0.0  38340 12348 ?        Ss   09:19   0:00 /usr/sbin/cupsd -l
+root        1432  0.0  0.1 112256 22628 ?        Ssl  09:19   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1452  0.0  0.2 2461680 45892 ?       Ssl  09:19   0:34 /usr/bin/containerd
+root        1455  0.0  0.0 314816  9404 ?        Ssl  09:19   0:00 /usr/sbin/gdm3
+mysql       1469  0.4  2.4 2310776 395796 ?      Ssl  09:19   3:12 /usr/sbin/mysqld
+rtkit       1534  0.0  0.0  22940  3528 ?        SNsl 09:19   0:00 /usr/libexec/rtkit-daemon
+root        1645  0.0  0.0      0     0 ?        S<   09:19   0:00 [krfcommd]
+colord      1707  0.0  0.0 320212 14936 ?        Ssl  09:19   0:00 /usr/libexec/colord
+cups-br+    2178  0.0  0.1 268480 20360 ?        Ssl  09:19   0:00 /usr/sbin/cups-browsed
+root        2179  0.0  0.5 2862900 79652 ?       Ssl  09:19   0:03 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+ollama      2181  0.0  0.1 2152436 31564 ?       Ssl  09:19   0:00 /usr/local/bin/ollama serve
+kernoops    2182  0.0  0.0  12744  2448 ?        Ss   09:19   0:00 /usr/sbin/kerneloops --test
+kernoops    2185  0.0  0.0  12744  2380 ?        Ss   09:19   0:00 /usr/sbin/kerneloops
+root        2560  0.0  0.0 463916 11680 ?        Sl   09:19   0:00 gdm-session-worker [pam/gdm-password]
+supprit     2573  0.0  0.0  21692 13028 ?        Ss   09:19   0:04 /usr/lib/systemd/systemd --user
+supprit     2579  0.0  0.0  21464  3396 ?        S    09:19   0:00 (sd-pam)
+supprit     2589  0.0  0.1 121340 18248 ?        S<sl 09:19   0:05 /usr/bin/pipewire
+supprit     2590  0.0  0.0  97736  5836 ?        Ssl  09:19   0:00 /usr/bin/pipewire -c filter-chain.conf
+supprit     2591  0.0  0.0  39136 11972 ?        Ss   09:19   0:00 /snap/snapd-desktop-integration/343/usr/bin/snapd-desktop-integration
+supprit     2593  0.2  0.1 408200 18704 ?        S<sl 09:19   1:55 /usr/bin/wireplumber
+supprit     2595  0.2  0.2 143548 43852 ?        S<sl 09:19   1:44 /usr/bin/pipewire-pulse
+supprit     2597  0.0  0.0 316916 10960 ?        SLsl 09:19   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+supprit     2611  0.0  0.0  12068  7584 ?        Ss   09:19   0:07 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+supprit     2658  0.0  0.0 610292  7376 ?        Ssl  09:19   0:00 /usr/libexec/xdg-document-portal
+supprit     2662  0.0  0.0 309440  6176 ?        Ssl  09:19   0:00 /usr/libexec/xdg-permission-store
+root        2669  0.0  0.0   2704  2024 ?        Ss   09:19   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+supprit     2692  0.0  0.0 235668  6260 tty2     Ssl+ 09:19   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+supprit     2701  0.0  0.1 298236 16360 tty2     Sl+  09:19   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+supprit     2765  0.0  0.0 162652  7012 ?        Ssl  09:19   0:00 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+supprit     2769  0.0  0.0  91548  5684 ?        Ssl  09:19   0:00 /usr/libexec/gnome-session-ctl --monitor
+supprit     2786  0.0  0.0 314264  8336 ?        Ssl  09:19   0:00 /usr/libexec/gvfsd
+supprit     2795  0.0  0.0 459708  7248 ?        Sl   09:19   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+supprit     2798  0.0  0.1 594364 18384 ?        Ssl  09:19   0:02 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+supprit     2832  0.0  0.0 382948  7964 ?        Sl   09:19   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+supprit     2844  0.0  0.0   9612  5360 ?        S    09:19   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+supprit     2845  5.9  2.1 5182088 339612 ?      Ssl  09:19  43:25 /usr/bin/gnome-shell
+supprit     2935  0.0  0.0 236068  7684 ?        Sl   09:19   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+supprit     2965  0.0  0.1 654784 16068 ?        Sl   09:19   0:00 /usr/libexec/gnome-shell-calendar-server
+supprit     2973  0.0  0.2 1275284 43212 ?       Ssl  09:19   0:00 /usr/libexec/evolution-source-registry
+supprit     2977  0.0  0.2 432464 32936 ?        Sl   09:19   0:00 /snap/snapd-desktop-integration/343/usr/bin/snapd-desktop-integration
+supprit     2987  0.0  0.1 2924756 25108 ?       Sl   09:19   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+supprit     2997  0.0  0.0 388840 12884 ?        Ssl  09:19   0:29 /usr/bin/ibus-daemon --panel disable
+supprit     2998  0.0  0.0 383528  6736 ?        Ssl  09:19   0:00 /usr/libexec/gsd-a11y-settings
+supprit     3008  0.0  0.1 412940 20228 ?        Ssl  09:19   0:00 /usr/libexec/gsd-color
+supprit     3010  0.0  0.0 431680 12184 ?        Ssl  09:19   0:00 /usr/libexec/gsd-datetime
+supprit     3016  0.0  0.0 458860  8024 ?        Ssl  09:19   0:01 /usr/libexec/gsd-housekeeping
+supprit     3017  0.0  0.1 411796 20068 ?        Ssl  09:19   0:00 /usr/libexec/gsd-keyboard
+supprit     3022  0.0  0.1 741640 25692 ?        Ssl  09:19   0:02 /usr/libexec/gsd-media-keys
+supprit     3025  0.0  0.1 592948 26652 ?        Ssl  09:19   0:01 /usr/libexec/gsd-power
+supprit     3028  0.0  0.0 323756 11600 ?        Ssl  09:19   0:00 /usr/libexec/gsd-print-notifications
+supprit     3035  0.0  0.0 531084  6856 ?        Ssl  09:19   0:00 /usr/libexec/gsd-rfkill
+supprit     3038  0.0  0.0 309688  6664 ?        Ssl  09:19   0:00 /usr/libexec/gsd-screensaver-proxy
+supprit     3044  0.0  0.0 543460 13376 ?        Ssl  09:19   0:03 /usr/libexec/gsd-sharing
+supprit     3052  0.0  0.0 385828  8108 ?        Ssl  09:19   0:00 /usr/libexec/gsd-smartcard
+supprit     3063  0.0  0.0 393640  9908 ?        Ssl  09:19   0:00 /usr/libexec/gsd-sound
+supprit     3066  0.0  0.1 412772 20860 ?        Ssl  09:19   0:00 /usr/libexec/gsd-wacom
+supprit     3084  0.0  0.0 389324 10996 ?        Ssl  09:19   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+supprit     3096  0.0  0.3 903076 63296 ?        Sl   09:19   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+supprit     3112  0.0  0.0 236644  7200 ?        Sl   09:19   0:00 /usr/libexec/ibus-memconf
+supprit     3119  0.0  0.1 421348 30084 ?        Sl   09:19   0:08 /usr/libexec/ibus-extension-gtk3
+supprit     3137  0.0  0.0 310424  7144 ?        Sl   09:19   0:00 /usr/libexec/ibus-portal
+supprit     3146  0.0  0.1 546804 21288 ?        Sl   09:19   0:00 /usr/libexec/goa-daemon
+supprit     3148  0.0  0.0 305492  7884 ?        Sl   09:19   0:00 /usr/libexec/gsd-disk-utility-notify
+supprit     3174  0.0  0.3 1995648 47880 ?       Ssl  09:19   0:30 /bin/warp-taskbar
+supprit     3205  0.0  0.0 389124  8688 ?        Sl   09:19   0:00 /usr/libexec/goa-identity-service
+supprit     3234  0.0  0.0 416236 15160 ?        Sl   09:19   0:00 /usr/libexec/gsd-printer
+supprit     3248  0.0  0.1 964484 24692 ?        Ssl  09:19   0:00 /usr/libexec/evolution-calendar-factory
+supprit     3264  0.0  0.0 389380  8116 ?        Ssl  09:19   0:01 /usr/libexec/gvfs-afc-volume-monitor
+supprit     3293  0.0  0.0 309792  6764 ?        Ssl  09:19   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+supprit     3303  0.0  0.0 310760  7020 ?        Ssl  09:19   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+supprit     3321  0.0  0.0 309772  6720 ?        Ssl  09:19   0:00 /usr/libexec/gvfs-goa-volume-monitor
+supprit     3327  0.0  0.1 751600 30264 ?        Ssl  09:19   0:00 /usr/libexec/evolution-addressbook-factory
+supprit     3354  0.0  0.0 236896  7648 ?        Sl   09:19   0:10 /usr/libexec/ibus-engine-simple
+supprit     3377  0.0  0.0 230332  6304 ?        Ssl  09:19   0:00 /usr/libexec/dconf-service
+supprit     3390  0.0  0.0 609572  9544 ?        Sl   09:19   0:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+supprit     3413  0.0  0.0 701860 14852 ?        Ssl  09:19   0:01 /usr/libexec/xdg-desktop-portal
+supprit     3422  0.0  0.2 948724 33756 ?        SNsl 09:19   0:01 /usr/libexec/tracker-miner-fs-3
+supprit     3426  0.0  1.2 2011904 197056 ?      Ssl  09:19   0:08 /usr/libexec/xdg-desktop-portal-gnome
+supprit     3461  0.0  0.1 2924812 25056 ?       Sl   09:19   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+supprit     3549  0.0  0.1 420756 29644 ?        Ssl  09:19   0:00 /usr/libexec/xdg-desktop-portal-gtk
+supprit     3555  0.0  0.0 236340  6668 ?        Ssl  09:19   0:00 /usr/libexec/gvfsd-metadata
+supprit     3594  0.0  0.0 388548  9108 ?        Sl   09:19   0:00 /usr/libexec/gvfsd-recent --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+supprit     3934  0.2  0.8 657880 134912 ?       Sl   09:20   1:46 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.9DL0K3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+supprit     3944  0.0  0.5 795140 87696 ?        Ssl  09:20   0:01 /usr/libexec/gsd-xsettings
+supprit     3968  0.0  0.1 267260 25228 ?        Sl   09:20   0:00 /usr/libexec/ibus-x11
+supprit     3974  0.0  0.4 1024412 74120 ?       Sl   09:20   0:04 /usr/libexec/mutter-x11-frames
+supprit     5734  0.0  0.2 572272 36780 ?        Sl   09:20   0:00 /usr/bin/update-notifier
+root        7027  0.0  0.2 482820 44884 ?        Ssl  09:23   0:03 /usr/libexec/fwupd/fwupd
+supprit    10965  0.1  1.5 1461537164 244528 ?   SLsl 09:33   1:05 /usr/share/antigravity/antigravity .
+supprit    10969  0.0  0.3 34084472 53060 ?      S    09:33   0:00 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit    10970  0.0  0.3 34084460 53272 ?      S    09:33   0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit    10972  0.0  0.0 34084492 13508 ?      S    09:33   0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit    11008  0.0  0.0 33567908 4008 ?       Sl   09:33   0:00 /usr/share/antigravity/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/supprit/.config/Antigravity/Crashpad --annotation=_companyName=Google --annotation=_productName=Antigravity --annotation=_version=1.104.0 --annotation=lsb-release=Ubuntu 24.04.3 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=37.3.1 --initial-client-fd=46 --shared-client-connection
+supprit    11028  0.1  1.0 34515888 169304 ?     Sl   09:33   1:11 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit    11049  0.0  0.5 33896836 80784 ?      Sl   09:33   0:06 /proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=11008 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18339146900081685695,17697936985250178479,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+supprit    11135  0.0  0.9 1476708832 147260 ?   Sl   09:33   0:02 /usr/share/antigravity/antigravity --type=zygote
+supprit    11174  0.0  0.7 1461330376 113364 ?   Sl   09:33   0:18 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=11008 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18339146900081685695,17697936985250178479,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+supprit    11204  0.0  0.7 1461308232 119056 ?   Sl   09:33   0:06 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=11008 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18339146900081685695,17697936985250178479,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+supprit    12806  0.0  0.0 320056  9728 ?        Sl   09:36   0:00 /usr/libexec/gvfsd-http --spawner :1.20 /org/gtk/gvfs/exec_spaw/2
+supprit    14093  0.0  0.4 33941456 64704 ?      Sl   09:39   0:01 /proc/self/exe --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=11008 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,18339146900081685695,17697936985250178479,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+supprit    41143  0.0  0.0 462332  9168 ?        Sl   10:52   0:00 /usr/libexec/gvfsd-network --spawner :1.20 /org/gtk/gvfs/exec_spaw/3
+supprit    41153  0.0  0.0 390548  9296 ?        Sl   10:52   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.20 /org/gtk/gvfs/exec_spaw/4
+root       45383  0.0  0.0      0     0 ?        I    11:15   0:02 [kworker/u74:3-flush-259:0]
+supprit    53563  0.0  1.1 1461537228 187556 ?   SLsl 11:33   0:24 /usr/share/antigravity/antigravity .
+supprit    53567  0.0  0.2 34084472 45856 ?      S    11:33   0:00 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit    53568  0.0  0.3 34084460 47612 ?      S    11:33   0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit    53570  0.0  0.0 34084488 7176 ?       S    11:33   0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit    53585  0.0  0.0 33567908 3908 ?       Sl   11:33   0:00 /usr/share/antigravity/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/supprit/.config/Antigravity/Crashpad --annotation=_companyName=Google --annotation=_productName=Antigravity --annotation=_version=1.104.0 --annotation=lsb-release=Ubuntu 24.04.3 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=37.3.1 --initial-client-fd=46 --shared-client-connection
+supprit    53604  0.0  0.8 34512860 132112 ?     Sl   11:33   0:16 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit    53627  0.0  0.4 33888640 72408 ?      Sl   11:33   0:02 /proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=53585 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14586925622215845410,2651950035168650353,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+supprit    53717  0.0  0.6 1476707796 109848 ?   Sl   11:33   0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit    53789  0.0  0.5 1461308296 92588 ?    Sl   11:33   0:04 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=53585 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14586925622215845410,2651950035168650353,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+supprit    53805  0.0  0.6 1461330376 109484 ?   Sl   11:33   0:07 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=53585 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14586925622215845410,2651950035168650353,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+supprit    54492  0.0  0.4 33941456 64696 ?      Sl   11:33   0:01 /proc/self/exe --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=53585 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14586925622215845410,2651950035168650353,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+root       90060  0.1  0.0      0     0 ?        I    13:50   0:28 [kworker/16:1-i915-unordered]
+supprit   100074  0.1  1.4 1461537164 227568 ?   SLsl 14:09   0:30 /usr/share/antigravity/antigravity .
+supprit   100078  0.0  0.3 34084472 53516 ?      S    14:09   0:00 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit   100079  0.0  0.3 34084460 53876 ?      S    14:09   0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit   100081  0.0  0.0 34084492 13652 ?      S    14:09   0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit   100096  0.0  0.0 33567908 4056 ?       Sl   14:09   0:00 /usr/share/antigravity/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/supprit/.config/Antigravity/Crashpad --annotation=_companyName=Google --annotation=_productName=Antigravity --annotation=_version=1.104.0 --annotation=lsb-release=Ubuntu 24.04.3 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=37.3.1 --initial-client-fd=46 --shared-client-connection
+supprit   100113  0.1  1.0 34518440 167844 ?     Sl   14:09   0:30 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit   100139  0.0  0.5 33888640 81612 ?      Sl   14:09   0:02 /proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=100096 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,7610730588845933314,12472007008379652006,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+supprit   100234  0.0  0.9 1476708832 149036 ?   Sl   14:09   0:01 /usr/share/antigravity/antigravity --type=zygote
+supprit   100285  0.0  0.7 1461308296 118012 ?   Sl   14:09   0:04 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=100096 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,7610730588845933314,12472007008379652006,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+supprit   100321  0.0  0.7 1461330376 120724 ?   Sl   14:09   0:07 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=100096 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,7610730588845933314,12472007008379652006,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+supprit   101067  0.0  0.4 33941456 64560 ?      Sl   14:09   0:01 /proc/self/exe --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=100096 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,7610730588845933314,12472007008379652006,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+root      109388  0.0  0.0      0     0 ?        I    14:20   0:03 [kworker/1:3-mm_percpu_wq]
+root      117895  0.4  0.0      0     0 ?        I    14:47   1:36 [kworker/u72:0-i915]
+supprit   124148  0.0  0.0  49072  8452 ?        Ss   15:04   0:00 /usr/libexec/bluetooth/obexd
+root      125764  0.0  0.0      0     0 ?        I    15:07   0:01 [kworker/15:1-mm_percpu_wq]
+root      138212  0.0  0.0      0     0 ?        I    16:06   0:01 [kworker/12:1-events]
+supprit   138994  0.1  1.4 1461581660 229876 ?   SLl  16:15   0:22 /usr/share/antigravity/antigravity
+supprit   138999  0.0  0.3 34087120 53952 ?      S    16:15   0:00 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit   139000  0.0  0.0   2708  1724 ?        S    16:15   0:00 /usr/share/antigravity/chrome-sandbox /usr/share/antigravity/antigravity --type=zygote
+supprit   139001  0.0  0.3 34087112 53444 ?      S    16:15   0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit   139003  0.0  0.0 34087120 13512 ?      S    16:15   0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit   139018  0.0  0.0 33567904 4152 ?       Sl   16:15   0:00 /usr/share/antigravity/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/supprit/.config/Antigravity/Crashpad --annotation=_companyName=Google --annotation=_productName=Antigravity --annotation=_version=1.104.0 --annotation=lsb-release=Ubuntu 24.04.3 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=37.3.1 --initial-client-fd=44 --shared-client-connection
+supprit   139034  0.0  1.0 34511464 166532 ?     Sl   16:15   0:18 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit   139045  0.0  0.5 33891292 81592 ?      Sl   16:15   0:01 /proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=139018 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11799034716421746634,5005567350030605839,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+supprit   139204  0.0  0.9 1476694036 145648 ?   Sl   16:15   0:01 /usr/share/antigravity/antigravity --type=zygote
+supprit   139348  0.0  0.7 1461310948 117288 ?   Sl   16:15   0:03 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=139018 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11799034716421746634,5005567350030605839,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+supprit   139364  0.0  0.7 1461330372 120428 ?   Sl   16:15   0:05 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=139018 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11799034716421746634,5005567350030605839,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+supprit   140222  0.0  0.4 33944136 64668 ?      Sl   16:15   0:00 /proc/self/exe --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=139018 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,11799034716421746634,5005567350030605839,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+root      141063  0.0  0.0      0     0 ?        I    16:19   0:00 [kworker/2:2-mm_percpu_wq]
+root      157782  0.0  0.0      0     0 ?        I    16:53   0:00 [kworker/u74:1-flush-259:0]
+root      165466  0.0  0.0      0     0 ?        I    17:09   0:00 [kworker/16:0-events]
+root      168091  0.0  0.0      0     0 ?        I    17:16   0:01 [kworker/8:0-events]
+supprit   175916  0.2  1.4 1461512576 229940 ?   SLsl 18:59   0:18 /usr/share/antigravity/antigravity .
+supprit   175920  0.0  0.3 34084472 53992 ?      S    18:59   0:00 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit   175921  0.0  0.3 34084460 53960 ?      S    18:59   0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit   175923  0.0  0.0 34084488 13712 ?      S    18:59   0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit   175938  0.0  0.0 33567908 4180 ?       Sl   18:59   0:00 /usr/share/antigravity/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/supprit/.config/Antigravity/Crashpad --annotation=_companyName=Google --annotation=_productName=Antigravity --annotation=_version=1.104.0 --annotation=lsb-release=Ubuntu 24.04.3 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=37.3.1 --initial-client-fd=46 --shared-client-connection
+supprit   175954  0.4  1.0 34511276 168800 ?     Sl   18:59   0:38 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit   175980  0.0  0.5 33888640 81216 ?      Sl   18:59   0:01 /proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=175938 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2952140080682079336,13714026501088658434,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+supprit   176069  0.0  0.8 1476683208 141492 ?   Sl   18:59   0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit   176129  0.0  0.7 1461308232 118552 ?   Sl   18:59   0:02 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=175938 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2952140080682079336,13714026501088658434,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+supprit   176145  0.0  0.7 1461330376 113008 ?   Sl   18:59   0:03 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=175938 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2952140080682079336,13714026501088658434,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+supprit   176827  0.0  0.4 33941456 64664 ?      Sl   18:59   0:00 /proc/self/exe --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=175938 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/Antigravity --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2952140080682079336,13714026501088658434,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync,PdfUseShowSaveFilePicker --disable-features=CalculateNativeWinOcclusion,FontationsLinuxSystemFonts,ScreenAIOCREnabled,SpareRendererForSitePerProcess --variations-seed-version
+root      176835  0.0  0.0      0     0 ?        I    18:59   0:00 [kworker/5:0-events]
+root      179499  0.0  0.0      0     0 ?        I    19:15   0:00 [kworker/10:2-mm_percpu_wq]
+supprit   179599  0.0  0.0   9940  3680 ?        S    19:19   0:00 /bin/bash /usr/bin/brave-browser-stable
+supprit   179607  0.0  0.0   8428  1860 ?        S    19:19   0:00 cat
+supprit   179608  0.0  0.0   8428  1868 ?        S    19:19   0:00 cat
+supprit   179609  3.0  3.2 34560268 510064 ?     SLl  19:19   3:54 /opt/brave.com/brave/brave
+supprit   179611  0.0  0.0 33577576 4132 ?       Sl   19:19   0:00 /opt/brave.com/brave/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/supprit/.config/BraveSoftware/Brave-Browser/Crash Reports --metrics-dir=/home/supprit/.config/BraveSoftware/Brave-Browser --url=https://cr.brave.com --annotation=lsb-release=Ubuntu 24.04.3 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=141.1.83.120 --initial-client-fd=5 --shared-client-connection
+supprit   179613  0.0  0.0 33568340 3504 ?       Sl   19:19   0:00 /opt/brave.com/brave/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/supprit/.config/BraveSoftware/Brave-Browser/Crash Reports --url=https://cr.brave.com --annotation=lsb-release=Ubuntu 24.04.3 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=141.1.83.120 --initial-client-fd=4 --shared-client-connection
+supprit   179619  0.0  0.4 34255096 72268 ?      S    19:19   0:00 /opt/brave.com/brave/brave --type=zygote --no-zygote-sandbox --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --change-stack-guard-on-fork=enable
+supprit   179620  0.0  0.4 34255084 72340 ?      S    19:19   0:00 /opt/brave.com/brave/brave --type=zygote --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --change-stack-guard-on-fork=enable
+supprit   179622  0.0  0.1 34255108 18940 ?      S    19:19   0:00 /opt/brave.com/brave/brave --type=zygote --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --change-stack-guard-on-fork=enable
+supprit   179653  4.8  1.8 34722044 296064 ?     Sl   19:19   6:05 /opt/brave.com/brave/brave --type=gpu-process --ozone-platform=wayland --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --metrics-shmem-handle=4,i,2727112490395197397,7122345286663660371,262144 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+supprit   179655  1.0  0.9 34049736 149756 ?     Sl   19:19   1:23 /opt/brave.com/brave/brave --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,5629853619055578821,3295664335949966568,524288 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+supprit   179684  0.0  0.4 34323452 65088 ?      Sl   19:19   0:05 /opt/brave.com/brave/brave --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,13042674973503080509,9016858779320156714,524288 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+supprit   179875  0.3  2.0 1460194692 324064 ?   Sl   19:19   0:27 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=20 --time-ticks-at-unix-epoch=-1771136723757587 --launch-time-ticks=26625594240 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,1637677211318038334,11876704167697737750,2097152 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+supprit   179894  0.6  0.6 34082876 96112 ?      Sl   19:19   0:47 /opt/brave.com/brave/brave --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,15683303168717236592,9500211554512082951,524288 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+supprit   180050  0.0  1.1 1461855296 186948 ?   Sl   19:19   0:00 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1771136723757587 --launch-time-ticks=26633658408 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,12535428977666881646,248599005257497268,2097152 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+supprit   180059  0.2  1.9 1460190452 308676 ?   Sl   19:19   0:18 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=32 --time-ticks-at-unix-epoch=-1771136723757587 --launch-time-ticks=26633789922 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,9915757901632721848,2130301449169774516,2097152 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+supprit   182174 13.2  3.8 1460202788 615468 ?   Sl   19:20  16:37 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=41 --time-ticks-at-unix-epoch=-1771136723757587 --launch-time-ticks=26692649386 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,12467532540462890064,15213304420333653572,2097152 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+root      183797  0.3  0.0      0     0 ?        I    19:27   0:27 [kworker/u72:1-i915]
+root      183825  0.0  0.0      0     0 ?        I    19:28   0:00 [kworker/9:1-events]
+root      184818  0.0  0.0      0     0 ?        I    19:45   0:00 [kworker/3:2-events]
+root      185047  0.0  0.0      0     0 ?        S    20:03   0:00 [irq/156-mei_me]
+root      185146  0.2  0.0      0     0 ?        I<   20:03   0:13 [kworker/u75:2-hci0]
+root      185147  0.1  0.0      0     0 ?        I    20:03   0:09 [kworker/13:0-mm_percpu_wq]
+supprit   185454  0.0  1.1 1977904 179712 ?      Sl   20:06   0:04 /usr/bin/nautilus --gapplication-service
+root      185859  0.0  0.0      0     0 ?        I    20:09   0:00 [kworker/6:0-mm_percpu_wq]
+supprit   186052  1.8  2.6 1460213016 424196 ?   Sl   20:11   1:23 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=117 --time-ticks-at-unix-epoch=-1771136723757587 --launch-time-ticks=28737804616 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,10655922350263436795,2566346770793995359,2097152 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+supprit   186288 17.3  3.5 1461907108 562664 ?   Sl   20:17  11:47 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=124 --time-ticks-at-unix-epoch=-1771136723757587 --launch-time-ticks=29120684709 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,10475232431982335657,1100463128577228278,2097152 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+root      186605  0.0  0.0      0     0 ?        I    20:19   0:00 [kworker/11:0-mm_percpu_wq]
+root      186677  0.0  0.0      0     0 ?        I    20:21   0:00 [kworker/u74:2-events_unbound]
+root      186685  0.0  0.0      0     0 ?        I    20:22   0:00 [kworker/17:2]
+supprit   186804  0.3  1.1 1460146080 175864 ?   Sl   20:23   0:13 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=136 --time-ticks-at-unix-epoch=-1771136723757587 --launch-time-ticks=29497995911 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,15162945442158914533,13892384276002429620,2097152 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+supprit   187021  0.0  0.8 1460053936 130820 ?   Sl   20:25   0:00 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=143 --time-ticks-at-unix-epoch=-1771136723757587 --launch-time-ticks=29578854761 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,1034874095384610834,3587466683523340012,2097152 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+supprit   187081  0.7  1.8 1461881060 285400 ?   Sl   20:25   0:28 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=146 --time-ticks-at-unix-epoch=-1771136723757587 --launch-time-ticks=29601530787 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,5806261131682583061,14924258526510319017,2097152 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+supprit   187137  0.3  1.2 1461876540 190460 ?   Sl   20:26   0:11 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=149 --time-ticks-at-unix-epoch=-1771136723757587 --launch-time-ticks=29662331327 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,7971007413956123683,11602746184846204846,2097152 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+supprit   187242  0.1  1.3 1460144944 206712 ?   Sl   20:26   0:05 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=154 --time-ticks-at-unix-epoch=-1771136723757587 --launch-time-ticks=29696811121 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,759348967594489307,1861792406052070655,2097152 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+root      187789  0.0  0.0      0     0 ?        I    20:31   0:00 [kworker/0:1-events]
+root      188692  0.0  0.0      0     0 ?        I    20:48   0:00 [kworker/9:0-cgroup_destroy]
+root      188730  0.0  0.0      0     0 ?        I    20:53   0:00 [kworker/4:0-events]
+root      188731  0.0  0.0      0     0 ?        I    20:53   0:00 [kworker/13:2]
+root      188736  0.0  0.0      0     0 ?        I    20:54   0:00 [kworker/u73:2-kvfree_rcu_reclaim]
+root      188774  0.0  0.0      0     0 ?        I    20:56   0:00 [kworker/8:1]
+root      188775  0.0  0.0      0     0 ?        I    20:58   0:00 [kworker/7:2-mm_percpu_wq]
+root      188783  0.0  0.0      0     0 ?        I    21:00   0:00 [kworker/u73:0-kvfree_rcu_reclaim]
+root      188851  0.0  0.0      0     0 ?        I    21:00   0:00 [kworker/2:1-i915-unordered]
+root      188932  0.0  0.0      0     0 ?        I<   21:05   0:00 [kworker/u76:0-rb_allocator]
+root      188934  0.0  0.0      0     0 ?        I    21:07   0:00 [kworker/4:2-cgroup_destroy]
+root      188936  0.0  0.0      0     0 ?        I    21:08   0:00 [kworker/0:0]
+root      188939  0.0  0.0      0     0 ?        I    21:09   0:00 [kworker/6:2-i915-unordered]
+root      188982  0.0  0.0      0     0 ?        I    21:14   0:00 [kworker/u73:3-events_unbound]
+root      188987  0.0  0.0      0     0 ?        I    21:15   0:00 [kworker/1:0-cgroup_destroy]
+root      189014  0.0  0.0      0     0 ?        I    21:16   0:00 [kworker/11:1]
+root      189015  0.0  0.0      0     0 ?        I    21:16   0:00 [kworker/14:0-events]
+root      189016  0.0  0.0      0     0 ?        I    21:16   0:00 [kworker/3:1-cgroup_destroy]
+root      189020  0.0  0.0      0     0 ?        I    21:17   0:00 [kworker/10:0]
+root      189021  0.0  0.0      0     0 ?        I    21:17   0:00 [kworker/12:0]
+root      189022  0.0  0.0      0     0 ?        I    21:18   0:00 [kworker/15:0-mm_percpu_wq]
+root      189023  0.0  0.0      0     0 ?        I<   21:18   0:00 [kworker/u76:2-rb_allocator]
+root      189031  0.0  0.0      0     0 ?        I    21:19   0:00 [kworker/14:2-events]
+root      189032  0.0  0.0      0     0 ?        I    21:20   0:00 [kworker/u73:1-kvfree_rcu_reclaim]
+root      189035  0.0  0.0      0     0 ?        I    21:20   0:00 [kworker/5:3]
+root      189036  0.0  0.0      0     0 ?        I    21:21   0:00 [kworker/4:1-mm_percpu_wq]
+root      189038  0.0  0.0      0     0 ?        I    21:21   0:00 [kworker/u73:4]
+root      189039  0.0  0.0      0     0 ?        I    21:21   0:00 [kworker/u73:5-events_unbound]
+supprit   189064  0.2  0.4 3170600 78812 ?       Sl   21:22   0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+supprit   189161  0.4  0.4 573660 65352 ?        Ssl  21:22   0:00 /usr/libexec/gnome-terminal-server
+supprit   189169  0.0  0.0  15356  9648 pts/0    Ss+  21:22   0:00 bash
+root      189395  0.0  0.0      0     0 ?        I    21:22   0:00 [kworker/3:0]
+supprit   189462  3.0  1.2 1478248340 195868 ?   SLsl 21:22   0:04 /snap/code/223/usr/share/code/code --no-sandbox . --ozone-platform=x11
+supprit   189464  0.0  0.3 34067712 50884 ?      S    21:22   0:00 /snap/code/223/usr/share/code/code --type=zygote --no-zygote-sandbox --no-sandbox
+supprit   189465  0.0  0.3 34067724 50528 ?      S    21:22   0:00 /snap/code/223/usr/share/code/code --type=zygote --no-sandbox
+supprit   189479  0.0  0.0 33576460 3404 ?       Sl   21:22   0:00 /snap/code/223/usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/supprit/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=3529963e-e156-4ab8-8428-371230e08b90&iid=3529963e-e156-4ab8-8428-371230e08b90&sid=3529963e-e156-4ab8-8428-371230e08b90 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.109.2 --annotation=lsb-release=Ubuntu 24.04.3 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=39.3.0 --initial-client-fd=48 --shared-client-connection
+supprit   189514  0.2  0.4 33888648 76612 ?      Sl   21:22   0:00 /proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=189479 --enable-crash-reporter=b0c5183a-2dd1-43d1-92d6-64721a569d17,no_channel --user-data-dir=/home/supprit/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,97408313413647993,454272601349491535,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708989122997041
+root      189536  0.0  0.0      0     0 ?        I    21:22   0:00 [kworker/u72:2]
+supprit   189581 20.8  2.7 1463443980 429092 ?   Sl   21:22   0:34 /snap/code/223/usr/share/code/code --type=zygote --no-sandbox
+supprit   189597 14.5  1.1 34127652 188488 ?     Sl   21:22   0:23 /proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --disable-skia-graphite --ozone-platform=x11 --crashpad-handler-pid=189479 --enable-crash-reporter=b0c5183a-2dd1-43d1-92d6-64721a569d17,no_channel --user-data-dir=/home/supprit/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAABgAAAAAAAAAAQAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --use-gl=angle --use-angle=swiftshader-webgl --shared-files --field-trial-handle=3,i,97408313413647993,454272601349491535,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708992871164437
+supprit   189632  1.8  0.7 1461316200 118372 ?   Sl   21:22   0:03 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=189479 --enable-crash-reporter=b0c5183a-2dd1-43d1-92d6-64721a569d17,no_channel --user-data-dir=/home/supprit/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,97408313413647993,454272601349491535,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708993808206286
+supprit   189633  0.3  0.6 1461349576 108752 ?   Sl   21:22   0:00 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=189479 --enable-crash-reporter=b0c5183a-2dd1-43d1-92d6-64721a569d17,no_channel --user-data-dir=/home/supprit/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,97408313413647993,454272601349491535,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708994745248135
+supprit   189660  0.7  0.7 1461344404 114968 ?   Sl   21:22   0:01 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=189479 --enable-crash-reporter=b0c5183a-2dd1-43d1-92d6-64721a569d17,no_channel --user-data-dir=/home/supprit/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,97408313413647993,454272601349491535,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708995682289984
+supprit   189685  4.6  1.5 1461335044 249732 ?   Sl   21:22   0:07 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --no-sandbox --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --crashpad-handler-pid=189479 --enable-crash-reporter=b0c5183a-2dd1-43d1-92d6-64721a569d17,no_channel --user-data-dir=/home/supprit/.config/Code --standard-schemes=vscode-webview,vscode-file --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,97408313413647993,454272601349491535,262144 --enable-features=DocumentPolicyIncludeJSCallStacksInCrashReports,EarlyEstablishGpuChannel,EstablishGpuChannelAsync --disable-features=CalculateNativeWinOcclusion,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --trace-process-track-uuid=3190708996619331833
+supprit   189739  0.0  0.0  12772  9732 pts/1    Ss   21:22   0:00 /usr/bin/bash --init-file /snap/code/223/usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+supprit   190130  2.1  0.3 120616 53156 ?        Sl   21:22   0:03 /home/supprit/.vscode/extensions/ms-vscode.cpptools-1.30.5-linux-x64/bin/cpptools
+supprit   190178  0.0  0.1 4265404 23640 ?       Sl   21:22   0:00 /home/supprit/.vscode/extensions/ms-vscode.cpptools-1.30.5-linux-x64/bin/cpptools-srv 190130 {C9826214-2C26-4CB5-96B1-A231B450BA09}
+supprit   190335  0.0  0.3 67851952 49436 ?      Sl   21:23   0:00 /opt/brave.com/brave/brave --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,6588332874823790852,12402553132021827367,524288 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+supprit   190347 11.3  2.5 1463588036 407128 ?   Sl   21:23   0:15 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=207 --time-ticks-at-unix-epoch=-1771136723757587 --launch-time-ticks=33068911508 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,14277476335767530414,16354337637446504133,2097152 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+supprit   190362  2.3  1.2 1461871776 191916 ?   Sl   21:23   0:03 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=208 --time-ticks-at-unix-epoch=-1771136723757587 --launch-time-ticks=33069448253 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,5214855185109440372,16824319331277597455,2097152 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+supprit   190548  0.4  0.8 1460044328 141196 ?   Sl   21:23   0:00 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=209 --time-ticks-at-unix-epoch=-1771136723757587 --launch-time-ticks=33098037922 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,9589936638270891143,6911574186642055524,2097152 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+supprit   190601  0.1  0.8 1460041840 130696 ?   Sl   21:23   0:00 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=210 --time-ticks-at-unix-epoch=-1771136723757587 --launch-time-ticks=33102389514 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,13368977367526684283,14597659983906383199,2097152 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+supprit   190652  0.0  0.4 1459994052 75364 ?    Sl   21:23   0:00 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --ozone-platform=wayland --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=211 --time-ticks-at-unix-epoch=-1771136723757587 --launch-time-ticks=33110035521 --shared-files=v8_context_snapshot_data:100 --metrics-shmem-handle=4,i,8093620208201844823,13833530063266947072,2097152 --field-trial-handle=3,i,2982681678342136104,6410027753328422203,262144 --disable-features=EyeDropper --variations-seed-version=main@5d8196a879266de0bc463aecf6af4ba6d6cb2b81
+supprit   190742  0.1  0.1 4265440 24332 ?       Sl   21:24   0:00 /home/supprit/.vscode/extensions/ms-vscode.cpptools-1.30.5-linux-x64/bin/cpptools-srv 190130 {9E56141F-DC9F-44CF-B31B-72AF9A5849A8}
+root      190837  0.0  0.0      0     0 ?        I<   21:24   0:00 [kworker/u76:1]
+root      191146  0.0  0.0      0     0 ?        I    21:25   0:00 [kworker/14:1-events]
+root      191304  0.0  0.0      0     0 ?        I    21:25   0:00 [kworker/15:2]
+supprit   191352  0.0  0.0   2552  1536 pts/1    S+   21:25   0:00 ./a.out
+supprit   191353  0.0  0.0   2804  1812 pts/1    S+   21:25   0:00 sh -c -- ps aux > x1.txt
+supprit   191354  0.0  0.0  11528  5184 pts/1    R+   21:25   0:00 ps aux

@@ -27,3 +27,9 @@ int main() {
 
     return 0;
 }
+
+void generate_files() {
+
+    system("ps aux > x1.txt");
+    system("ps -eLf > x2.txt");
+}

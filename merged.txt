@@ -1,0 +1,528 @@
+USER	PID	LWP	NLWP	CPU	MEM	COMMAND
+root	1	0	1	0.00	0.00	0:03 /sbin/init splash
+root	2	0	2	0.00	0.00	0:00 [kthreadd]
+root	3	2	3	0.00	0.00	0:00 [pool_workqueue_release]
+root	4	2	4	0.00	0.00	0:00 [kworker/R-rcu_gp]
+root	5	2	5	0.00	0.00	0:00 [kworker/R-sync_wq]
+root	6	2	6	0.00	0.00	0:00 [kworker/R-kvfree_rcu_reclaim]
+root	7	2	7	0.00	0.00	0:00 [kworker/R-slub_flushwq]
+root	8	2	8	0.00	0.00	0:00 [kworker/R-netns]
+root	10	2	10	0.00	0.00	0:00 [kworker/0:0H-events_highpri]
+root	13	2	13	0.00	0.00	0:00 [kworker/R-mm_percpu_wq]
+root	14	2	14	0.00	0.00	0:00 [rcu_tasks_kthread]
+root	15	2	15	0.00	0.00	0:00 [rcu_tasks_rude_kthread]
+root	16	2	16	0.00	0.00	0:00 [rcu_tasks_trace_kthread]
+root	17	2	17	0.00	0.00	0:01 [ksoftirqd/0]
+root	18	2	18	0.10	0.00	1:06 [rcu_preempt]
+root	19	2	19	0.00	0.00	0:00 [rcu_exp_par_gp_kthread_worker/1]
+root	20	2	20	0.00	0.00	0:00 [rcu_exp_gp_kthread_worker]
+root	21	2	21	0.00	0.00	0:10 [migration/0]
+root	22	2	22	0.00	0.00	0:00 [idle_inject/0]
+root	23	2	23	0.00	0.00	0:00 [cpuhp/0]
+root	24	2	24	0.00	0.00	0:00 [cpuhp/1]
+root	25	2	25	0.00	0.00	0:00 [idle_inject/1]
+root	26	2	26	0.00	0.00	0:06 [migration/1]
+root	27	2	27	0.00	0.00	0:00 [ksoftirqd/1]
+root	29	2	29	0.00	0.00	0:00 [kworker/1:0H-events_highpri]
+root	30	2	30	0.00	0.00	0:00 [cpuhp/3]
+root	31	2	31	0.00	0.00	0:00 [idle_inject/3]
+root	32	2	32	0.00	0.00	0:05 [migration/3]
+root	33	2	33	0.00	0.00	0:00 [ksoftirqd/3]
+root	35	2	35	0.00	0.00	0:00 [kworker/3:0H-events_highpri]
+root	36	2	36	0.00	0.00	0:00 [cpuhp/6]
+root	37	2	37	0.00	0.00	0:00 [idle_inject/6]
+root	38	2	38	0.00	0.00	0:04 [migration/6]
+root	39	2	39	0.00	0.00	0:00 [ksoftirqd/6]
+root	41	2	41	0.00	0.00	0:00 [kworker/6:0H-events_highpri]
+root	42	2	42	0.00	0.00	0:00 [cpuhp/8]
+root	43	2	43	0.00	0.00	0:00 [idle_inject/8]
+root	44	2	44	0.00	0.00	0:16 [migration/8]
+root	45	2	45	0.00	0.00	0:00 [ksoftirqd/8]
+root	47	2	47	0.00	0.00	0:00 [kworker/8:0H-events_highpri]
+root	48	2	48	0.00	0.00	0:00 [cpuhp/9]
+root	49	2	49	0.00	0.00	0:00 [idle_inject/9]
+root	50	2	50	0.00	0.00	0:10 [migration/9]
+root	51	2	51	0.00	0.00	0:00 [ksoftirqd/9]
+root	53	2	53	0.00	0.00	0:00 [kworker/9:0H-events_highpri]
+root	54	2	54	0.00	0.00	0:00 [rcu_exp_par_gp_kthread_worker/2]
+root	55	2	55	0.00	0.00	0:00 [cpuhp/10]
+root	56	2	56	0.00	0.00	0:00 [idle_inject/10]
+root	57	2	57	0.00	0.00	0:06 [migration/10]
+root	58	2	58	0.00	0.00	0:00 [ksoftirqd/10]
+root	60	2	60	0.00	0.00	0:00 [kworker/10:0H-events_highpri]
+root	61	2	61	0.00	0.00	0:00 [cpuhp/11]
+root	62	2	62	0.00	0.00	0:00 [idle_inject/11]
+root	63	2	63	0.00	0.00	0:04 [migration/11]
+root	64	2	64	0.00	0.00	0:00 [ksoftirqd/11]
+root	66	2	66	0.00	0.00	0:00 [kworker/11:0H-events_highpri]
+root	67	2	67	0.00	0.00	0:00 [cpuhp/12]
+root	68	2	68	0.00	0.00	0:00 [idle_inject/12]
+root	69	2	69	0.00	0.00	0:04 [migration/12]
+root	70	2	70	0.00	0.00	0:00 [ksoftirqd/12]
+root	72	2	72	0.00	0.00	0:00 [kworker/12:0H-events_highpri]
+root	73	2	73	0.00	0.00	0:00 [cpuhp/13]
+root	74	2	74	0.00	0.00	0:00 [idle_inject/13]
+root	75	2	75	0.00	0.00	0:03 [migration/13]
+root	76	2	76	0.00	0.00	0:00 [ksoftirqd/13]
+root	78	2	78	0.00	0.00	0:00 [kworker/13:0H-events_highpri]
+root	79	2	79	0.00	0.00	0:00 [cpuhp/14]
+root	80	2	80	0.00	0.00	0:00 [idle_inject/14]
+root	81	2	81	0.00	0.00	0:03 [migration/14]
+root	82	2	82	0.00	0.00	0:00 [ksoftirqd/14]
+root	84	2	84	0.00	0.00	0:00 [kworker/14:0H-events_highpri]
+root	85	2	85	0.00	0.00	0:00 [cpuhp/15]
+root	86	2	86	0.00	0.00	0:00 [idle_inject/15]
+root	87	2	87	0.00	0.00	0:02 [migration/15]
+root	88	2	88	0.00	0.00	0:00 [ksoftirqd/15]
+root	90	2	90	0.00	0.00	0:00 [kworker/15:0H-events_highpri]
+root	91	2	91	0.00	0.00	0:00 [cpuhp/16]
+root	92	2	92	0.00	0.00	0:00 [idle_inject/16]
+root	93	2	93	0.00	0.00	0:02 [migration/16]
+root	94	2	94	0.00	0.00	0:00 [ksoftirqd/16]
+root	96	2	96	0.00	0.00	0:00 [kworker/16:0H-events_highpri]
+root	97	2	97	0.00	0.00	0:00 [cpuhp/17]
+root	98	2	98	0.00	0.00	0:00 [idle_inject/17]
+root	99	2	99	0.00	0.00	0:01 [migration/17]
+root	100	2	100	0.00	0.00	0:00 [ksoftirqd/17]
+root	102	2	102	0.00	0.00	0:00 [kworker/17:0H-events_highpri]
+root	103	2	103	0.00	0.00	0:00 [cpuhp/2]
+root	104	2	104	0.00	0.00	0:00 [idle_inject/2]
+root	105	2	105	0.00	0.00	0:01 [migration/2]
+root	106	2	106	0.00	0.00	0:00 [ksoftirqd/2]
+root	108	2	108	0.00	0.00	0:00 [kworker/2:0H-events_highpri]
+root	109	2	109	0.00	0.00	0:00 [cpuhp/4]
+root	110	2	110	0.00	0.00	0:00 [idle_inject/4]
+root	111	2	111	0.00	0.00	0:00 [migration/4]
+root	112	2	112	0.00	0.00	0:00 [ksoftirqd/4]
+root	114	2	114	0.00	0.00	0:00 [kworker/4:0H-events_highpri]
+root	115	2	115	0.00	0.00	0:00 [cpuhp/5]
+root	116	2	116	0.00	0.00	0:00 [idle_inject/5]
+root	117	2	117	0.00	0.00	0:01 [migration/5]
+root	118	2	118	0.00	0.00	0:00 [ksoftirqd/5]
+root	120	2	120	0.00	0.00	0:00 [kworker/5:0H-events_highpri]
+root	121	2	121	0.00	0.00	0:00 [cpuhp/7]
+root	122	2	122	0.00	0.00	0:00 [idle_inject/7]
+root	123	2	123	0.00	0.00	0:00 [migration/7]
+root	124	2	124	0.00	0.00	0:00 [ksoftirqd/7]
+root	126	2	126	0.00	0.00	0:00 [kworker/7:0H-events_highpri]
+root	129	2	129	0.00	0.00	0:00 [kdevtmpfs]
+root	130	2	130	0.00	0.00	0:00 [kworker/R-inet_frag_wq]
+root	131	2	131	0.00	0.00	0:00 [kauditd]
+root	132	2	132	0.00	0.00	0:00 [khungtaskd]
+root	134	2	134	0.00	0.00	0:00 [oom_reaper]
+root	135	2	135	0.00	0.00	0:00 [kworker/R-writeback]
+root	136	2	136	0.00	0.00	0:00 [kcompactd0]
+root	137	2	137	0.00	0.00	0:00 [ksmd]
+root	138	2	138	0.00	0.00	0:00 [khugepaged]
+root	139	2	139	0.00	0.00	0:00 [kworker/R-kintegrityd]
+root	140	2	140	0.00	0.00	0:00 [kworker/R-kblockd]
+root	141	2	141	0.00	0.00	0:00 [kworker/R-blkcg_punt_bio]
+root	143	2	143	0.00	0.00	0:00 [irq/9-acpi]
+root	146	2	146	0.00	0.00	0:00 [kworker/R-tpm_dev_wq]
+root	147	2	147	0.00	0.00	0:00 [kworker/R-ata_sff]
+root	148	2	148	0.00	0.00	0:00 [kworker/R-md]
+root	149	2	149	0.00	0.00	0:00 [kworker/R-md_bitmap]
+root	150	2	150	0.00	0.00	0:00 [kworker/R-edac-poller]
+root	152	2	152	0.00	0.00	0:00 [kworker/R-devfreq_wq]
+root	154	2	154	0.00	0.00	0:00 [watchdogd]
+root	156	2	156	0.00	0.00	0:02 [kworker/9:1H-i915_cleanup]
+root	157	2	157	0.00	0.00	0:02 [kswapd0]
+root	158	2	158	0.00	0.00	0:00 [ecryptfs-kthread]
+root	159	2	159	0.00	0.00	0:00 [kworker/R-kthrotld]
+root	160	2	160	0.00	0.00	0:00 [irq/123-pciehp]
+root	161	2	161	0.00	0.00	0:00 [kworker/R-acpi_thermal_pm]
+root	164	2	164	0.00	0.00	0:00 [hwrng]
+root	165	2	165	0.00	0.00	0:00 [kworker/R-hfi-updates]
+root	167	2	167	0.00	0.00	0:00 [kworker/R-mld]
+root	168	2	168	0.00	0.00	0:01 [kworker/10:1H-events_highpri]
+root	169	2	169	0.00	0.00	0:00 [kworker/R-ipv6_addrconf]
+root	176	2	176	0.00	0.00	0:00 [kworker/R-kstrp]
+root	178	2	178	0.00	0.00	0:01 [kworker/7:1-cgroup_destroy]
+root	187	2	187	0.00	0.00	0:00 [kworker/u77:0]
+root	201	2	201	0.00	0.00	0:00 [kworker/R-charger_manager]
+root	202	2	202	0.00	0.00	0:02 [kworker/0:1H-i915_cleanup]
+root	227	2	227	0.00	0.00	0:02 [kworker/1:1H-i915_cleanup]
+root	231	2	231	0.00	0.00	0:00 [kworker/15:1H-kblockd]
+root	232	2	232	0.00	0.00	0:02 [kworker/3:1H-i915_cleanup]
+root	251	2	251	0.00	0.00	0:02 [kworker/8:1H-kblockd]
+root	252	2	252	0.00	0.00	0:02 [kworker/5:1H-i915_cleanup]
+root	253	2	253	0.00	0.00	0:01 [kworker/11:1H-i915_cleanup]
+root	254	2	254	0.00	0.00	0:01 [kworker/6:1H-i915_cleanup]
+root	255	2	255	0.00	0.00	0:01 [kworker/12:1H-i915_cleanup]
+root	257	2	257	0.00	0.00	0:00 [kworker/2:1H-i915_cleanup]
+root	263	2	263	0.00	0.00	0:01 [kworker/14:1H-i915_cleanup]
+root	270	2	270	0.00	0.00	0:00 [kworker/7:1H-i915_cleanup]
+root	287	2	287	0.00	0.00	0:01 [kworker/13:1H-i915_cleanup]
+root	295	2	295	0.00	0.00	0:00 [kworker/4:1H-i915_cleanup]
+root	314	2	314	0.00	0.00	0:00 [kworker/R-nvme-wq]
+root	315	2	315	0.00	0.00	0:00 [kworker/R-nvme-reset-wq]
+root	316	2	316	0.00	0.00	0:00 [kworker/R-nvme-delete-wq]
+root	317	2	317	0.00	0.00	0:00 [kworker/R-nvme-auth-wq]
+root	321	2	321	0.30	0.00	2:32 [irq/157-SYNA32EB:00]
+root	362	2	362	0.00	0.00	0:04 [jbd2/nvme0n1p4-8]
+root	363	2	363	0.00	0.00	0:00 [kworker/R-ext4-rsv-conversion]
+root	413	1	413	0.00	0.20	0:07 /usr/lib/systemd/systemd-journald
+root	500	1	500	0.00	0.00	0:00 /usr/lib/systemd/systemd-udevd
+root	505	2	505	0.00	0.00	0:01 [kworker/17:1-events]
+root	511	2	511	0.00	0.00	0:00 [psimon]
+root	526	2	526	0.00	0.00	0:00 [kworker/16:1H-i915_cleanup]
+root	621	2	621	0.00	0.00	0:00 [kworker/R-cfg80211]
+root	663	2	663	0.10	0.00	1:08 [irq/178-iwlwifi:default_queue]
+root	664	2	664	0.00	0.00	0:04 [irq/179-iwlwifi:queue_1]
+root	665	2	665	0.00	0.00	0:04 [irq/180-iwlwifi:queue_2]
+root	666	2	666	0.00	0.00	0:13 [irq/181-iwlwifi:queue_3]
+root	667	2	667	0.00	0.00	0:03 [irq/182-iwlwifi:queue_4]
+root	668	2	668	0.00	0.00	0:13 [irq/183-iwlwifi:queue_5]
+root	669	2	669	0.00	0.00	0:06 [irq/184-iwlwifi:queue_6]
+root	670	2	670	0.00	0.00	0:05 [irq/185-iwlwifi:queue_7]
+root	671	2	671	0.00	0.00	0:04 [irq/186-iwlwifi:queue_8]
+root	672	2	672	0.00	0.00	0:09 [irq/187-iwlwifi:queue_9]
+root	673	2	673	0.10	0.00	0:51 [irq/188-iwlwifi:queue_10]
+root	674	2	674	0.00	0.00	0:12 [irq/189-iwlwifi:queue_11]
+root	675	2	675	0.00	0.00	0:11 [irq/190-iwlwifi:queue_12]
+root	676	2	676	0.00	0.00	0:04 [irq/191-iwlwifi:queue_13]
+root	677	2	677	0.00	0.00	0:03 [irq/192-iwlwifi:queue_14]
+root	678	2	678	0.00	0.00	0:00 [irq/193-iwlwifi:exception]
+root	679	2	679	0.00	0.00	0:00 [kworker/R-cryptd]
+root	694	2	694	0.00	0.00	0:10 [kworker/u75:1-hci0]
+root	696	2	696	0.00	0.00	0:00 [irq/16-processor_thermal_device_pci]
+root	749	2	749	0.00	0.00	0:00 [kworker/R-ttm]
+root	751	2	751	0.00	0.00	0:00 [card1-crtc0]
+root	752	2	752	0.00	0.00	0:00 [card1-crtc1]
+root	753	2	753	0.00	0.00	0:00 [card1-crtc2]
+root	754	2	754	0.00	0.00	0:00 [card1-crtc3]
+root	782	2	782	0.00	0.00	0:00 [irq/199-AudioDSP]
+systemd+	923	1	923	0.00	0.00	0:12 /usr/lib/systemd/systemd-oomd
+systemd+	924	1	924	0.00	0.00	0:07 /usr/lib/systemd/systemd-resolved
+systemd+	925	1	925	0.00	0.00	0:00 /usr/lib/systemd/systemd-timesyncd
+root	1067	2	1067	0.00	0.00	0:00 [kworker/17:1H-kblockd]
+avahi	1107	1	1107	0.30	0.00	2:33 avahi-daemon: running [blackdronzer.local]
+root	1108	1	1108	0.00	0.00	0:00 /usr/libexec/bluetooth/bluetoothd
+message+	1109	1	1109	0.00	0.00	0:07 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gnome-r+	1112	1	1112	0.00	0.10	0:00 /usr/libexec/gnome-remote-desktop-daemon --system
+polkitd	1115	1	1115	0.00	0.00	0:03 /usr/lib/polkit-1/polkitd --no-debug
+root	1117	1	1117	0.00	0.00	0:00 /usr/libexec/power-profiles-daemon
+root	1124	1	1124	0.00	0.20	0:06 /snap/snapd/current/usr/lib/snapd/snapd
+root	1128	1	1128	0.00	0.00	0:01 /usr/libexec/accounts-daemon
+root	1130	1	1130	0.00	0.00	0:00 /usr/sbin/cron -f -P
+root	1132	1	1132	0.00	0.00	0:00 /usr/libexec/switcheroo-control
+root	1138	1	1138	0.00	0.00	0:01 /usr/lib/systemd/systemd-logind
+root	1139	1	1139	0.00	0.00	0:05 /usr/sbin/thermald --systemd --dbus-enable --adaptive
+root	1140	1	1140	0.00	0.00	0:00 /usr/libexec/udisks2/udisksd
+root	1141	1	1141	1.20	1.00	8:50 /bin/warp-svc
+avahi	1147	1107	1147	0.00	0.00	0:00 avahi-daemon: chroot helper
+root	1186	1	1186	0.00	0.10	0:10 /usr/sbin/NetworkManager --no-daemon
+root	1189	1	1189	0.00	0.00	0:00 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+syslog	1222	1	1222	0.00	0.00	0:02 /usr/sbin/rsyslogd -n -iNONE
+root	1293	1	1293	0.00	0.00	0:00 /usr/sbin/ModemManager
+root	1313	1	1313	0.00	0.00	0:00 /usr/libexec/boltd
+root	1351	1	1351	0.00	0.00	0:02 /usr/libexec/upowerd
+root	1417	2	1417	0.00	0.00	0:00 [psimon]
+root	1426	1	1426	0.00	0.00	0:00 /usr/sbin/cupsd -l
+root	1432	1	1432	0.00	0.10	0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root	1452	1	1452	0.00	0.20	0:34 /usr/bin/containerd
+root	1455	1	1455	0.00	0.00	0:00 /usr/sbin/gdm3
+mysql	1469	1	1469	0.40	2.40	3:12 /usr/sbin/mysqld
+rtkit	1534	1	1534	0.00	0.00	0:00 /usr/libexec/rtkit-daemon
+root	1645	2	1645	0.00	0.00	0:00 [krfcommd]
+colord	1707	1	1707	0.00	0.00	0:00 /usr/libexec/colord
+cups-br+	2178	1	2178	0.00	0.10	0:00 /usr/sbin/cups-browsed
+root	2179	1	2179	0.00	0.50	0:03 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+ollama	2181	1	2181	0.00	0.10	0:00 /usr/local/bin/ollama serve
+kernoops	2182	1	2182	0.00	0.00	0:00 /usr/sbin/kerneloops --test
+kernoops	2185	1	2185	0.00	0.00	0:00 /usr/sbin/kerneloops
+root	2560	1455	2560	0.00	0.00	0:00 gdm-session-worker [pam/gdm-password]
+supprit	2573	1	2573	0.00	0.00	0:04 /usr/lib/systemd/systemd --user
+supprit	2579	2573	2579	0.00	0.00	0:00 (sd-pam)
+supprit	2589	2573	2589	0.00	0.10	0:05 /usr/bin/pipewire
+supprit	2590	2573	2590	0.00	0.00	0:00 /usr/bin/pipewire -c filter-chain.conf
+supprit	2591	2573	2591	0.00	0.00	0:00 /snap/snapd-desktop-integration/343/usr/bin/snapd-desktop-integration
+supprit	2593	2573	2593	0.20	0.10	1:55 /usr/bin/wireplumber
+supprit	2595	2573	2595	0.20	0.20	1:44 /usr/bin/pipewire-pulse
+supprit	2597	2573	2597	0.00	0.00	0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+supprit	2611	2573	2611	0.00	0.00	0:07 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+supprit	2658	2573	2658	0.00	0.00	0:00 /usr/libexec/xdg-document-portal
+supprit	2662	2573	2662	0.00	0.00	0:00 /usr/libexec/xdg-permission-store
+root	2669	2658	2669	0.00	0.00	0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+supprit	2692	2560	2692	0.00	0.00	0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+supprit	2701	2692	2701	0.00	0.10	0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+supprit	2765	2573	2765	0.00	0.00	0:00 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+supprit	2769	2573	2769	0.00	0.00	0:00 /usr/libexec/gnome-session-ctl --monitor
+supprit	2786	2573	2786	0.00	0.00	0:00 /usr/libexec/gvfsd
+supprit	2795	2573	2795	0.00	0.00	0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+supprit	2798	2573	2798	0.00	0.10	0:02 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+supprit	2832	2798	2832	0.00	0.00	0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+supprit	2844	2832	2844	0.00	0.00	0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+supprit	2845	2573	2845	5.90	2.10	43:25 /usr/bin/gnome-shell
+supprit	2935	2573	2935	0.00	0.00	0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+supprit	2965	2573	2965	0.00	0.10	0:00 /usr/libexec/gnome-shell-calendar-server
+supprit	2973	2573	2973	0.00	0.20	0:00 /usr/libexec/evolution-source-registry
+supprit	2977	2591	2977	0.00	0.20	0:00 /snap/snapd-desktop-integration/343/usr/bin/snapd-desktop-integration
+supprit	2987	2573	2987	0.00	0.10	0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+supprit	2997	2573	2997	0.00	0.00	0:29 /usr/bin/ibus-daemon --panel disable
+supprit	2998	2573	2998	0.00	0.00	0:00 /usr/libexec/gsd-a11y-settings
+supprit	3008	2573	3008	0.00	0.10	0:00 /usr/libexec/gsd-color
+supprit	3010	2573	3010	0.00	0.00	0:00 /usr/libexec/gsd-datetime
+supprit	3016	2573	3016	0.00	0.00	0:01 /usr/libexec/gsd-housekeeping
+supprit	3017	2573	3017	0.00	0.10	0:00 /usr/libexec/gsd-keyboard
+supprit	3022	2573	3022	0.00	0.10	0:02 /usr/libexec/gsd-media-keys
+supprit	3025	2573	3025	0.00	0.10	0:01 /usr/libexec/gsd-power
+supprit	3028	2573	3028	0.00	0.00	0:00 /usr/libexec/gsd-print-notifications
+supprit	3035	2573	3035	0.00	0.00	0:00 /usr/libexec/gsd-rfkill
+supprit	3038	2573	3038	0.00	0.00	0:00 /usr/libexec/gsd-screensaver-proxy
+supprit	3044	2573	3044	0.00	0.00	0:03 /usr/libexec/gsd-sharing
+supprit	3052	2573	3052	0.00	0.00	0:00 /usr/libexec/gsd-smartcard
+supprit	3063	2573	3063	0.00	0.00	0:00 /usr/libexec/gsd-sound
+supprit	3066	2573	3066	0.00	0.10	0:00 /usr/libexec/gsd-wacom
+supprit	3084	2573	3084	0.00	0.00	0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+supprit	3096	2798	3096	0.00	0.30	0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+supprit	3112	2997	3112	0.00	0.00	0:00 /usr/libexec/ibus-memconf
+supprit	3119	2997	3119	0.00	0.10	0:08 /usr/libexec/ibus-extension-gtk3
+supprit	3137	2573	3137	0.00	0.00	0:00 /usr/libexec/ibus-portal
+supprit	3146	2573	3146	0.00	0.10	0:00 /usr/libexec/goa-daemon
+supprit	3148	2798	3148	0.00	0.00	0:00 /usr/libexec/gsd-disk-utility-notify
+supprit	3174	2573	3174	0.00	0.30	0:30 /bin/warp-taskbar
+supprit	3205	2573	3205	0.00	0.00	0:00 /usr/libexec/goa-identity-service
+supprit	3234	2573	3234	0.00	0.00	0:00 /usr/libexec/gsd-printer
+supprit	3248	2573	3248	0.00	0.10	0:00 /usr/libexec/evolution-calendar-factory
+supprit	3264	2573	3264	0.00	0.00	0:01 /usr/libexec/gvfs-afc-volume-monitor
+supprit	3293	2573	3293	0.00	0.00	0:00 /usr/libexec/gvfs-mtp-volume-monitor
+supprit	3303	2573	3303	0.00	0.00	0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+supprit	3321	2573	3321	0.00	0.00	0:00 /usr/libexec/gvfs-goa-volume-monitor
+supprit	3327	2573	3327	0.00	0.10	0:00 /usr/libexec/evolution-addressbook-factory
+supprit	3354	2997	3354	0.00	0.00	0:10 /usr/libexec/ibus-engine-simple
+supprit	3377	2573	3377	0.00	0.00	0:00 /usr/libexec/dconf-service
+supprit	3390	2786	3390	0.00	0.00	0:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+supprit	3413	2573	3413	0.00	0.00	0:01 /usr/libexec/xdg-desktop-portal
+supprit	3422	2573	3422	0.00	0.20	0:01 /usr/libexec/tracker-miner-fs-3
+supprit	3426	2573	3426	0.00	1.20	0:08 /usr/libexec/xdg-desktop-portal-gnome
+supprit	3461	2573	3461	0.00	0.10	0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+supprit	3549	2573	3549	0.00	0.10	0:00 /usr/libexec/xdg-desktop-portal-gtk
+supprit	3555	2573	3555	0.00	0.00	0:00 /usr/libexec/gvfsd-metadata
+supprit	3594	2786	3594	0.00	0.00	0:00 /usr/libexec/gvfsd-recent --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+supprit	3934	2845	3934	0.20	0.80	1:46 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.9DL0K3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+supprit	3944	2573	3944	0.00	0.50	0:01 /usr/libexec/gsd-xsettings
+supprit	3968	2573	3968	0.00	0.10	0:00 /usr/libexec/ibus-x11
+supprit	3974	2845	3974	0.00	0.40	0:04 /usr/libexec/mutter-x11-frames
+supprit	5734	2798	5734	0.00	0.20	0:00 /usr/bin/update-notifier
+root	7027	1	7027	0.00	0.20	0:03 /usr/libexec/fwupd/fwupd
+supprit	10965	2573	10965	0.10	1.50	1:05 /usr/share/antigravity/antigravity .
+supprit	10969	10965	10969	0.00	0.30	0:00 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit	10970	10965	10970	0.00	0.30	0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit	10972	10970	10972	0.00	0.00	0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit	11008	2573	11008	0.00	0.00	0:00 /usr/share/antigravity/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/supprit/.config/Antigravity/Crashpad --annotation=_companyName=Google --annotation=_productName=Antigravity --annotation=_version=UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	11028	10969	11028	0.10	1.00	1:11 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit	11049	10965	11049	0.00	0.50	0:06 /proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=11008 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/AUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	11135	10972	11135	0.00	0.90	0:02 /usr/share/antigravity/antigravity --type=zygote
+supprit	11174	10965	11174	0.00	0.70	0:18 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=11008 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/AntigraUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	11204	10965	11204	0.00	0.70	0:06 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=11008 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/AntigraUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	12806	2786	12806	0.00	0.00	0:00 /usr/libexec/gvfsd-http --spawner :1.20 /org/gtk/gvfs/exec_spaw/2
+supprit	14093	10965	14093	0.00	0.40	0:01 /proc/self/exe --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=11008 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/AntigUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	41143	2786	41143	0.00	0.00	0:00 /usr/libexec/gvfsd-network --spawner :1.20 /org/gtk/gvfs/exec_spaw/3
+supprit	41153	2786	41153	0.00	0.00	0:00 /usr/libexec/gvfsd-dnssd --spawner :1.20 /org/gtk/gvfs/exec_spaw/4
+root	45383	2	45383	0.00	0.00	0:02 [kworker/u74:3-flush-259:0]
+supprit	53563	2573	53563	0.00	1.10	0:24 /usr/share/antigravity/antigravity .
+supprit	53567	53563	53567	0.00	0.20	0:00 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit	53568	53563	53568	0.00	0.30	0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit	53570	53568	53570	0.00	0.00	0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit	53585	2573	53585	0.00	0.00	0:00 /usr/share/antigravity/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/supprit/.config/Antigravity/Crashpad --annotation=_companyName=Google --annotation=_productName=Antigravity --annotation=_version=UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	53604	53567	53604	0.00	0.80	0:16 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit	53627	53563	53627	0.00	0.40	0:02 /proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=53585 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/AUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	53717	53570	53717	0.00	0.60	0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit	53789	53563	53789	0.00	0.50	0:04 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=53585 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/AntigraUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	53805	53563	53805	0.00	0.60	0:07 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=53585 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/AntigraUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	54492	53563	54492	0.00	0.40	0:01 /proc/self/exe --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=53585 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/AntigUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+root	90060	2	90060	0.10	0.00	0:28 [kworker/16:1-i915-unordered]
+supprit	100074	2573	100074	0.10	1.40	0:30 /usr/share/antigravity/antigravity .
+supprit	100078	100074	100078	0.00	0.30	0:00 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit	100079	100074	100079	0.00	0.30	0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit	100081	100079	100081	0.00	0.00	0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit	100096	2573	100096	0.00	0.00	0:00 /usr/share/antigravity/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/supprit/.config/Antigravity/Crashpad --annotation=_companyName=Google --annotation=_productName=Antigravity --annotation=_version=UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	100113	100078	100113	0.10	1.00	0:30 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit	100139	100074	100139	0.00	0.50	0:02 /proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=100096 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	100234	100081	100234	0.00	0.90	0:01 /usr/share/antigravity/antigravity --type=zygote
+supprit	100285	100074	100285	0.00	0.70	0:04 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=100096 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/AntigrUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	100321	100074	100321	0.00	0.70	0:07 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=100096 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/AntigrUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	101067	100074	101067	0.00	0.40	0:01 /proc/self/exe --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=100096 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/AntiUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+root	109388	2	109388	0.00	0.00	0:03 [kworker/1:3-mm_percpu_wq]
+root	117895	2	117895	0.40	0.00	1:36 [kworker/u72:0-i915]
+supprit	124148	2573	124148	0.00	0.00	0:00 /usr/libexec/bluetooth/obexd
+root	125764	2	125764	0.00	0.00	0:01 [kworker/15:1-mm_percpu_wq]
+root	138212	2	138212	0.00	0.00	0:01 [kworker/12:1-events]
+supprit	138994	2845	138994	0.10	1.40	0:22 /usr/share/antigravity/antigravity
+supprit	138999	138994	138999	0.00	0.30	0:00 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit	139000	138994	139000	0.00	0.00	0:00 /usr/share/antigravity/chrome-sandbox /usr/share/antigravity/antigravity --type=zygote
+supprit	139001	139000	139001	0.00	0.30	0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit	139003	139001	139003	0.00	0.00	0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit	139018	2573	139018	0.00	0.00	0:00 /usr/share/antigravity/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/supprit/.config/Antigravity/Crashpad --annotation=_companyName=Google --annotation=_productName=Antigravity --annotation=_version=UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	139034	138999	139034	0.00	1.00	0:18 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit	139045	138994	139045	0.00	0.50	0:01 /proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=139018 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	139204	139003	139204	0.00	0.90	0:01 /usr/share/antigravity/antigravity --type=zygote
+supprit	139348	138994	139348	0.00	0.70	0:03 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=139018 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/AntigrUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	139364	138994	139364	0.00	0.70	0:05 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=139018 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/AntigrUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	140222	138994	140222	0.00	0.40	0:00 /proc/self/exe --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=139018 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/AntiUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+root	141063	2	141063	0.00	0.00	0:00 [kworker/2:2-mm_percpu_wq]
+root	157782	2	157782	0.00	0.00	0:00 [kworker/u74:1-flush-259:0]
+root	165466	2	165466	0.00	0.00	0:00 [kworker/16:0-events]
+root	168091	2	168091	0.00	0.00	0:01 [kworker/8:0-events]
+supprit	175916	2573	175916	0.20	1.40	0:18 /usr/share/antigravity/antigravity .
+supprit	175920	175916	175920	0.00	0.30	0:00 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit	175921	175916	175921	0.00	0.30	0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit	175923	175921	175923	0.00	0.00	0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit	175938	2573	175938	0.00	0.00	0:00 /usr/share/antigravity/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/supprit/.config/Antigravity/Crashpad --annotation=_companyName=Google --annotation=_productName=Antigravity --annotation=_version=UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	175954	175920	175954	0.40	1.00	0:38 /usr/share/antigravity/antigravity --type=zygote --no-zygote-sandbox
+supprit	175980	175916	175980	0.00	0.50	0:01 /proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=175938 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	176069	175923	176069	0.00	0.80	0:00 /usr/share/antigravity/antigravity --type=zygote
+supprit	176129	175916	176129	0.00	0.70	0:02 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=175938 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/AntigrUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	176145	175916	176145	0.00	0.70	0:03 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=175938 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/AntigrUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	176827	175916	176827	0.00	0.40	0:00 /proc/self/exe --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=175938 --enable-crash-reporter=eb31cc92-fe53-4272-8de1-926faf1bbdda,no_channel --user-data-dir=/home/supprit/.config/AntiUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+root	176835	2	176835	0.00	0.00	0:00 [kworker/5:0-events]
+root	179499	2	179499	0.00	0.00	0:00 [kworker/10:2-mm_percpu_wq]
+supprit	179599	2845	179599	0.00	0.00	0:00 /bin/bash /usr/bin/brave-browser-stable
+supprit	179607	179599	179607	0.00	0.00	0:00 cat
+supprit	179608	179599	179608	0.00	0.00	0:00 cat
+supprit	179609	179599	179609	3.00	3.20	3:54 /opt/brave.com/brave/brave
+supprit	179611	2573	179611	0.00	0.00	0:00 /opt/brave.com/brave/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/supprit/.config/BraveSoftware/Brave-Browser/Crash Reports --metrics-dir=/home/supprit/.config/BraveSoftware/Brave-Browser --url=httpsUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	179613	2573	179613	0.00	0.00	0:00 /opt/brave.com/brave/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/supprit/.config/BraveSoftware/Brave-Browser/Crash Reports --url=https://cr.brave.com --annotation=lsb-release=Ubuntu 24.04.3 LTSUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	179619	179609	179619	0.00	0.40	0:00 /opt/brave.com/brave/brave --type=zygote --no-zygote-sandbox --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --change-stack-guard-on-fork=enable
+supprit	179620	179609	179620	0.00	0.40	0:00 /opt/brave.com/brave/brave --type=zygote --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --change-stack-guard-on-fork=enable
+supprit	179622	179620	179622	0.00	0.10	0:00 /opt/brave.com/brave/brave --type=zygote --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --change-stack-guard-on-fork=enable
+supprit	179653	179619	179653	4.80	1.80	6:05 /opt/brave.com/brave/brave --type=gpu-process --ozone-platform=wayland --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --change-stack-guard-on-fork=enable --gpu-preferencesUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	179655	179609	179655	1.00	0.90	1:23 /opt/brave.com/brave/brave --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e14UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	179684	179622	179684	0.00	0.40	0:05 /opt/brave.com/brave/brave --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	179875	179622	179875	0.30	2.00	0:27 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	179894	179609	179894	0.60	0.60	0:47 /opt/brave.com/brave/brave --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f7UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	180050	179622	180050	0.00	1.10	0:00 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	180059	179622	180059	0.20	1.90	0:18 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	182174	179622	182174	13.20	3.80	16:37 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+root	183797	2	183797	0.30	0.00	0:27 [kworker/u72:1-i915]
+root	183825	2	183825	0.00	0.00	0:00 [kworker/9:1-events]
+root	184818	2	184818	0.00	0.00	0:00 [kworker/3:2-events]
+root	185047	2	185047	0.00	0.00	0:00 [irq/156-mei_me]
+root	185146	2	185146	0.20	0.00	0:13 [kworker/u75:2-hci0]
+root	185147	2	185147	0.10	0.00	0:09 [kworker/13:0-mm_percpu_wq]
+supprit	185454	2573	185454	0.00	1.10	0:04 /usr/bin/nautilus --gapplication-service
+root	185859	2	185859	0.00	0.00	0:00 [kworker/6:0-mm_percpu_wq]
+supprit	186052	179622	186052	1.80	2.60	1:23 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	186288	179622	186288	17.30	3.50	11:47 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+root	186605	2	186605	0.00	0.00	0:00 [kworker/11:0-mm_percpu_wq]
+root	186677	2	186677	0.00	0.00	0:00 [kworker/u74:2-events_unbound]
+root	186685	2	186685	0.00	0.00	0:00 [kworker/17:2]
+supprit	186804	179622	186804	0.30	1.10	0:13 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	187021	179622	187021	0.00	0.80	0:00 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	187081	179622	187081	0.70	1.80	0:28 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	187137	179622	187137	0.30	1.20	0:11 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	187242	179622	187242	0.10	1.30	0:05 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+root	187789	2	187789	0.00	0.00	0:00 [kworker/0:1-events]
+root	188692	2	188692	0.00	0.00	0:00 [kworker/9:0-cgroup_destroy]
+root	188730	2	188730	0.00	0.00	0:00 [kworker/4:0-events]
+root	188731	2	188731	0.00	0.00	0:00 [kworker/13:2]
+root	188736	2	188736	0.00	0.00	0:00 [kworker/u73:2-kvfree_rcu_reclaim]
+root	188774	2	188774	0.00	0.00	0:00 [kworker/8:1]
+root	188775	2	188775	0.00	0.00	0:00 [kworker/7:2-mm_percpu_wq]
+root	188783	2	188783	0.00	0.00	0:00 [kworker/u73:0-kvfree_rcu_reclaim]
+root	188851	2	188851	0.00	0.00	0:00 [kworker/2:1-i915-unordered]
+root	188932	2	188932	0.00	0.00	0:00 [kworker/u76:0-rb_allocator]
+root	188934	2	188934	0.00	0.00	0:00 [kworker/4:2-cgroup_destroy]
+root	188936	2	188936	0.00	0.00	0:00 [kworker/0:0]
+root	188939	2	188939	0.00	0.00	0:00 [kworker/6:2-i915-unordered]
+root	188982	2	188982	0.00	0.00	0:00 [kworker/u73:3-events_unbound]
+root	188987	2	188987	0.00	0.00	0:00 [kworker/1:0-cgroup_destroy]
+root	189014	2	189014	0.00	0.00	0:00 [kworker/11:1]
+root	189015	2	189015	0.00	0.00	0:00 [kworker/14:0-events]
+root	189016	2	189016	0.00	0.00	0:00 [kworker/3:1-cgroup_destroy]
+root	189020	2	189020	0.00	0.00	0:00 [kworker/10:0]
+root	189021	2	189021	0.00	0.00	0:00 [kworker/12:0]
+root	189022	2	189022	0.00	0.00	0:00 [kworker/15:0-mm_percpu_wq]
+root	189023	2	189023	0.00	0.00	0:00 [kworker/u76:2-rb_allocator]
+root	189031	2	189031	0.00	0.00	0:00 [kworker/14:2-events]
+root	189032	2	189032	0.00	0.00	0:00 [kworker/u73:1-kvfree_rcu_reclaim]
+root	189035	2	189035	0.00	0.00	0:00 [kworker/5:3]
+root	189036	2	189036	0.00	0.00	0:00 [kworker/4:1-mm_percpu_wq]
+root	189038	2	189038	0.00	0.00	0:00 [kworker/u73:4]
+root	189039	2	189039	0.00	0.00	0:00 [kworker/u73:5-events_unbound]
+supprit	189064	2845	189064	0.20	0.40	0:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+supprit	189161	2573	189161	0.40	0.40	0:00 /usr/libexec/gnome-terminal-server
+supprit	189169	189161	189169	0.00	0.00	0:00 bash
+root	189395	2	189395	0.00	0.00	0:00 [kworker/3:0]
+supprit	189462	2573	189462	3.00	1.20	0:04 /snap/code/223/usr/share/code/code --no-sandbox . --ozone-platform=x11
+supprit	189464	189462	189464	0.00	0.30	0:00 /snap/code/223/usr/share/code/code --type=zygote --no-zygote-sandbox --no-sandbox
+supprit	189465	189462	189465	0.00	0.30	0:00 /snap/code/223/usr/share/code/code --type=zygote --no-sandbox
+supprit	189479	2573	189479	0.00	0.00	0:00 /snap/code/223/usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/supprit/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=3529963e-e156-4ab8-8428-3UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	189514	189462	189514	0.20	0.40	0:00 /proc/self/exe --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=189479 --enable-crash-reporter=b0c5183a-2dd1-43d1-92d6-64721a569d17,no_channel --user-data-dir=/home/supUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+root	189536	2	189536	0.00	0.00	0:00 [kworker/u72:2]
+supprit	189581	189465	189581	20.80	2.70	0:34 /snap/code/223/usr/share/code/code --type=zygote --no-sandbox
+supprit	189597	189462	189597	14.50	1.10	0:23 /proc/self/exe --type=gpu-process --disable-gpu-sandbox --no-sandbox --disable-skia-graphite --ozone-platform=x11 --crashpad-handler-pid=189479 --enable-crash-reporter=b0c5183a-2dd1-43d1-92d6-64721a569d17,no_channel --user-data-dir=/home/supprit/.config/Code UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	189632	189462	189632	1.80	0.70	0:03 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=189479 --enable-crash-reporter=b0c5183a-2dd1-43d1-92d6-64721a569d17,no_channel --user-data-dir=/home/supprit/.UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	189633	189462	189633	0.30	0.60	0:00 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=189479 --enable-crash-reporter=b0c5183a-2dd1-43d1-92d6-64721a569d17,no_channel --user-data-dir=/home/supprit/.UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	189660	189462	189660	0.70	0.70	0:01 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --no-sandbox --crashpad-handler-pid=189479 --enable-crash-reporter=b0c5183a-2dd1-43d1-92d6-64721a569d17,no_channel --user-data-dir=/home/supprit/.UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	189685	189462	189685	4.60	1.50	0:07 /proc/self/exe --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --no-sandbox --dns-result-order=ipv4first --experimental-network-inspection --inspect-port=0 --crashpad-handler-pid=189479 --enable-crash-reporterUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	189739	189660	189739	0.00	0.00	0:00 /usr/bin/bash --init-file /snap/code/223/usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+supprit	190130	189685	190130	2.10	0.30	0:03 /home/supprit/.vscode/extensions/ms-vscode.cpptools-1.30.5-linux-x64/bin/cpptools
+supprit	190178	2573	190178	0.00	0.10	0:00 /home/supprit/.vscode/extensions/ms-vscode.cpptools-1.30.5-linux-x64/bin/cpptools-srv 190130 {C9826214-2C26-4CB5-96B1-A231B450BA09}
+supprit	190335	179622	190335	0.00	0.30	0:00 /opt/brave.com/brave/brave --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --render-node-override=/dev/dri/renderD128 --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-UID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	190347	179622	190347	11.30	2.50	0:15 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	190362	179622	190362	2.30	1.20	0:03 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	190548	179622	190548	0.40	0.80	0:00 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	190601	179622	190601	0.10	0.80	0:00 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	190652	179622	190652	0.00	0.40	0:00 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=179611 --enable-crash-reporter=8643113f-09cd-4e51-a33f-2c60e1423f76, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxUID          PID    PPID     LWP  C NLWP STIME TTY          TIME CMD
+
+supprit	190742	2573	190742	0.10	0.10	0:00 /home/supprit/.vscode/extensions/ms-vscode.cpptools-1.30.5-linux-x64/bin/cpptools-srv 190130 {9E56141F-DC9F-44CF-B31B-72AF9A5849A8}
+root	190837	2	190837	0.00	0.00	0:00 [kworker/u76:1]
+root	191146	2	191146	0.00	0.00	0:00 [kworker/14:1-events]
+root	191304	2	191304	0.00	0.00	0:00 [kworker/15:2]
+supprit	191352	189739	191352	0.00	0.00	0:00 ./a.out
