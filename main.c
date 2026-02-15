@@ -1,11 +1,18 @@
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
 #include <fcntl.h>
+
 #define MAX_LINE 1024
 #define MAX_USER 50
 #define MAX_CMD  256
+
+
+
+
 struct process_info {
     char user[MAX_USER];
     int pid;
@@ -15,9 +22,16 @@ struct process_info {
     int nlwp;
     char command[MAX_CMD];
 };
+
+
+
+
 void generate_files();
 void merge_files();
 void display_output();
+
+
+
 
 int main() {
 
@@ -28,11 +42,15 @@ int main() {
     return 0;
 }
 
+
+
 void generate_files() {
 
     system("ps aux > x1.txt");
     system("ps -eLf > x2.txt");
 }
+
+
 
 void merge_files() {
 
@@ -50,7 +68,48 @@ void merge_files() {
         exit(1);
     }
 
-    fgets(line, MAX_LINE, fp1);
-    fgets(line, MAX_LINE, fp2);
+    fgets(line, MAX_LINE, fp1); 
+    fgets(line, MAX_LINE, fp2); 
 
     fprintf(out,"USER\tPID\tLWP\tNLWP\tCPU\tMEM\tCOMMAND\n");
+
+
+
+
+    while (fscanf(fp1,"%s %d %f %f %*s %*s %*s %*s %*s %[^\n]",
+                  p.user,&p.pid,&p.cpu,&p.mem,p.command) != EOF)
+    {
+        rewind(fp2);
+        fgets(line, MAX_LINE, fp2);
+
+
+
+
+        while (fscanf(fp2,"%*s %d %d %d",
+                      &pid2,&p.lwp,&p.nlwp) != EOF)
+        {
+            if (p.pid == pid2) {
+
+
+
+
+                fprintf(out,"%s\t%d\t%d\t%d\t%.2f\t%.2f\t%s\n",
+                        p.user,p.pid,p.lwp,p.nlwp,
+                        p.cpu,p.mem,p.command);
+                break;
+            }
+        }
+    }
+
+    fclose(fp1);
+    fclose(fp2);
+    fclose(out);
+}
+
+
+
+
+void display_output() {
+
+    system("cat merged.txt");
+}
