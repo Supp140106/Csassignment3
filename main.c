@@ -109,7 +109,7 @@ void merge_files() {
 
 
 
-void display_output() {
+void display_output(){
 
     system("cat merged.txt");
 }
